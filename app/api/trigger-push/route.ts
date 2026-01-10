@@ -70,10 +70,23 @@ async function sendPushNotification(
   payload: object
 ): Promise<{ success: boolean; expired?: boolean; error?: string }> {
   try {
-    await webpush.sendNotification(subscription, JSON.stringify(payload));
+    console.log('📤 Sending push to endpoint:', subscription.endpoint.substring(0, 50) + '...');
+    console.log('📦 Payload:', JSON.stringify(payload, null, 2));
+
+    const result = await webpush.sendNotification(subscription, JSON.stringify(payload));
+
+    console.log('✅ Push sent successfully! Status:', result.statusCode);
+    console.log('📨 Response headers:', result.headers);
+
     return { success: true };
   } catch (error: any) {
-    console.error('Push failed:', error);
+    console.error('❌ Push failed!');
+    console.error('Error details:', {
+      message: error.message,
+      statusCode: error.statusCode,
+      headers: error.headers,
+      body: error.body
+    });
 
     // If subscription expired or invalid, return error
     if (error.statusCode === 410 || error.statusCode === 404) {
@@ -86,6 +99,16 @@ async function sendPushNotification(
 
 export async function POST(request: NextRequest) {
   try {
+    // Check VAPID configuration
+    if (!VAPID_PUBLIC_KEY || !VAPID_PRIVATE_KEY) {
+      console.error('❌ VAPID keys not configured!');
+      return NextResponse.json(
+        { error: 'Server configuration error: VAPID keys missing' },
+        { status: 500 }
+      );
+    }
+    console.log('✅ VAPID keys configured');
+
     // Verify API key
     const apiKey = request.headers.get('x-api-key');
     if (apiKey !== process.env.HEADSUP_PUSH_KEY) {
@@ -106,9 +129,11 @@ export async function POST(request: NextRequest) {
     }
 
     console.log(`\n🔔 Triggering push for ${count} new notices`);
+    console.log('📋 New notices:', JSON.stringify(new_notices, null, 2));
 
     // Load subscriptions
     const subscriptions = loadSubscriptions();
+    console.log(`📱 Found ${subscriptions.length} subscription(s)`);
 
     if (subscriptions.length === 0) {
       console.log('📭 No subscriptions found');
@@ -118,6 +143,12 @@ export async function POST(request: NextRequest) {
         sent: 0
       });
     }
+
+    // Log subscription details
+    subscriptions.forEach((sub, idx) => {
+      console.log(`  ${idx + 1}. Endpoint: ${sub.endpoint.substring(0, 60)}...`);
+      console.log(`     Keys present: p256dh=${!!sub.keys?.p256dh}, auth=${!!sub.keys?.auth}`);
+    });
 
     // Create notification payload
     const payload = {
@@ -134,6 +165,8 @@ export async function POST(request: NextRequest) {
         notices: new_notices
       }
     };
+
+    console.log('📦 Created notification payload:', JSON.stringify(payload, null, 2));
 
     // Send to all subscriptions
     const results = await Promise.all(
