@@ -450,6 +450,7 @@
 
 import React, { useState, useMemo, useEffect } from "react";
 import { Bell, Building2, Calendar, Filter, X, Briefcase } from "lucide-react";
+import NotificationButton from "@/app/components/NotificationButton";
 
 /* ---------------- Types ---------------- */
 type Notice = {
@@ -644,9 +645,12 @@ export default function HeadsUp() {
               </h1>
               <p className="text-[#999999] text-xs tracking-wide">No hassle. Just the heads-up.</p>
             </div>
-            <div className="flex items-center gap-2 bg-[#1A1A1A] px-3 py-1.5 rounded-full border border-[#2A2A2A]">
-              <div className="w-2 h-2 bg-[#FFD644] rounded-full animate-pulse shadow-[0_0_10px_rgba(255,214,68,0.8)]"></div>
-              <span className="text-xs font-bold tracking-wide uppercase">Live</span>
+            <div className="flex items-center gap-3">
+              <NotificationButton />
+              <div className="flex items-center gap-2 bg-[#1A1A1A] px-3 py-1.5 rounded-full border border-[#2A2A2A]">
+                <div className="w-2 h-2 bg-[#FFD644] rounded-full animate-pulse shadow-[0_0_10px_rgba(255,214,68,0.8)]"></div>
+                <span className="text-xs font-bold tracking-wide uppercase">Live</span>
+              </div>
             </div>
           </div>
 
