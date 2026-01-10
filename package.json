@@ -1,0 +1,31 @@
+{
+  "name": "placement-board",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "postbuild": "mkdir -p .next/standalone/public && cp -R public/* .next/standalone/public/ 2>/dev/null || true && mkdir -p .next/standalone/.next && cp -R .next/static .next/standalone/.next/",
+    "start": "next start",
+    "start:custom":"NODE_ENV=production node server.js",
+    "lint": "eslint"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "lucide-react": "^0.545.0",
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,6418 @@
+{
+  "scraped_at": "2025-10-14T00:01:35.781748+05:30",
+  "notices": [
+    {
+      "id": "949",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "IBM",
+      "notice_time": "12-10-2025 21:56"
+    },
+    {
+      "id": "948",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "ALTRODAV TECHNOLOGIES",
+      "notice_time": "12-10-2025 20:50"
+    },
+    {
+      "id": "947",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ALTRODAV TECHNOLOGIES",
+      "notice_time": "12-10-2025 16:44"
+    },
+    {
+      "id": "946",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SAMSUNG R&D INSTITUTE INDIA DELHI",
+      "notice_time": "12-10-2025 15:55"
+    },
+    {
+      "id": "945",
+      "type": "PLACEMENT",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Flipkart",
+      "notice_time": "12-10-2025 13:20"
+    },
+    {
+      "id": "944",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ALTRODAV TECHNOLOGIES",
+      "notice_time": "12-10-2025 11:38"
+    },
+    {
+      "id": "943",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "SAMSUNG R&D INSTITUTE INDIA DELHI",
+      "notice_time": "12-10-2025 10:28"
+    },
+    {
+      "id": "942",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SAMSUNG R&D INSTITUTE INDIA DELHI",
+      "notice_time": "12-10-2025 10:26"
+    },
+    {
+      "id": "941",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Altrodav Technology",
+      "notice_time": "11-10-2025 17:36"
+    },
+    {
+      "id": "940",
+      "type": "PLACEMENT",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Flipkart",
+      "notice_time": "11-10-2025 16:34"
+    },
+    {
+      "id": "939",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Graviton Research Capital",
+      "notice_time": "11-10-2025 13:07"
+    },
+    {
+      "id": "938",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Graviton Research Capital",
+      "notice_time": "11-10-2025 12:53"
+    },
+    {
+      "id": "937",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Altrodav Technology",
+      "notice_time": "11-10-2025 11:39"
+    },
+    {
+      "id": "936",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "GRAVITON RESEARCH CAPITAL",
+      "notice_time": "10-10-2025 22:47"
+    },
+    {
+      "id": "935",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "E-Bay",
+      "notice_time": "10-10-2025 21:21"
+    },
+    {
+      "id": "934",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Cardekho",
+      "notice_time": "10-10-2025 20:14"
+    },
+    {
+      "id": "933",
+      "type": "PLACEMENT",
+      "category": "Date extension",
+      "company": "Multiple Companies",
+      "notice_time": "10-10-2025 19:11"
+    },
+    {
+      "id": "932",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "RELIANCE",
+      "notice_time": "10-10-2025 17:30"
+    },
+    {
+      "id": "931",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ANALOG DEVICES",
+      "notice_time": "10-10-2025 17:18"
+    },
+    {
+      "id": "930",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Optum",
+      "notice_time": "10-10-2025 17:07"
+    },
+    {
+      "id": "929",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Optum",
+      "notice_time": "10-10-2025 17:05"
+    },
+    {
+      "id": "928",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Cardekho",
+      "notice_time": "10-10-2025 16:37"
+    },
+    {
+      "id": "927",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Scienaptic Systems",
+      "notice_time": "10-10-2025 16:33"
+    },
+    {
+      "id": "926",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "SLB (Schlumberger)",
+      "notice_time": "10-10-2025 11:44"
+    },
+    {
+      "id": "925",
+      "type": "PLACEMENT",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "ACCENTURE JAPAN LTD.",
+      "notice_time": "10-10-2025 11:29"
+    },
+    {
+      "id": "924",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Accenture",
+      "notice_time": "09-10-2025 18:19"
+    },
+    {
+      "id": "923",
+      "type": "PLACEMENT",
+      "category": "CV Submission",
+      "company": "Multiple Companies",
+      "notice_time": "09-10-2025 18:00"
+    },
+    {
+      "id": "922",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Optum",
+      "notice_time": "09-10-2025 17:34"
+    },
+    {
+      "id": "921",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Squarepoint Capital",
+      "notice_time": "09-10-2025 17:26"
+    },
+    {
+      "id": "920",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Axtria India Pvt Ltd",
+      "notice_time": "09-10-2025 17:25"
+    },
+    {
+      "id": "919",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "TrueFoundry",
+      "notice_time": "09-10-2025 17:09"
+    },
+    {
+      "id": "918",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Axtria India Pvt Ltd",
+      "notice_time": "09-10-2025 14:42"
+    },
+    {
+      "id": "917",
+      "type": "INTERNSHIP",
+      "category": "Re-schedule",
+      "company": "OLA",
+      "notice_time": "09-10-2025 11:14"
+    },
+    {
+      "id": "916",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "OLA",
+      "notice_time": "09-10-2025 11:13"
+    },
+    {
+      "id": "915",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "DEUTSCHE INDIA PRIVATE LIMITED",
+      "notice_time": "09-10-2025 11:06"
+    },
+    {
+      "id": "914",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Socit Gnrale",
+      "notice_time": "09-10-2025 11:04"
+    },
+    {
+      "id": "913",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Various Companies",
+      "notice_time": "09-10-2025 10:46"
+    },
+    {
+      "id": "912",
+      "type": "PLACEMENT",
+      "category": "Schedule",
+      "company": "CDC Placement schedule for 9th October",
+      "notice_time": "08-10-2025 22:10"
+    },
+    {
+      "id": "908",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Ola",
+      "notice_time": "08-10-2025 18:21"
+    },
+    {
+      "id": "907",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Celeriac Technologies & Consulting Pvt. Ltd",
+      "notice_time": "08-10-2025 17:50"
+    },
+    {
+      "id": "906",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "HONEYWELL",
+      "notice_time": "08-10-2025 17:10"
+    },
+    {
+      "id": "905",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "Google",
+      "notice_time": "08-10-2025 17:07"
+    },
+    {
+      "id": "904",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "GOOGLE",
+      "notice_time": "08-10-2025 17:04"
+    },
+    {
+      "id": "903",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Axtria India Pvt Ltd",
+      "notice_time": "08-10-2025 16:56"
+    },
+    {
+      "id": "902",
+      "type": "PLACEMENT",
+      "category": "Date extension",
+      "company": "Multiple Companies",
+      "notice_time": "08-10-2025 15:54"
+    },
+    {
+      "id": "901",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "TATA Steel",
+      "notice_time": "08-10-2025 15:49"
+    },
+    {
+      "id": "900",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Ola",
+      "notice_time": "08-10-2025 15:48"
+    },
+    {
+      "id": "899",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "FirstClub Technology",
+      "notice_time": "08-10-2025 15:47"
+    },
+    {
+      "id": "898",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Maxim AI",
+      "notice_time": "08-10-2025 15:46"
+    },
+    {
+      "id": "897",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Ola",
+      "notice_time": "08-10-2025 15:34"
+    },
+    {
+      "id": "896",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "E-Bay",
+      "notice_time": "08-10-2025 14:15"
+    },
+    {
+      "id": "895",
+      "type": "PLACEMENT",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "NAVI",
+      "notice_time": "08-10-2025 13:07"
+    },
+    {
+      "id": "894",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Squarepoint Capital",
+      "notice_time": "08-10-2025 00:48"
+    },
+    {
+      "id": "893",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "CDC Internship schedule for 8th October",
+      "notice_time": "07-10-2025 20:37"
+    },
+    {
+      "id": "892",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Kenvue",
+      "notice_time": "07-10-2025 20:03"
+    },
+    {
+      "id": "891",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Warner Bro's Discovery (ML)",
+      "notice_time": "07-10-2025 20:01"
+    },
+    {
+      "id": "890",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "SLB (Schlumberger)",
+      "notice_time": "07-10-2025 18:22"
+    },
+    {
+      "id": "889",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SLB (Schlumberger)",
+      "notice_time": "07-10-2025 16:55"
+    },
+    {
+      "id": "888",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "SLB (Schlumberger)",
+      "notice_time": "07-10-2025 16:06"
+    },
+    {
+      "id": "887",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV Verification",
+      "notice_time": "07-10-2025 15:28"
+    },
+    {
+      "id": "886",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Axtria India Pvt Ltd",
+      "notice_time": "07-10-2025 12:48"
+    },
+    {
+      "id": "885",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "DEUTSCHE INDIA PRIVATE LIMITED",
+      "notice_time": "07-10-2025 12:28"
+    },
+    {
+      "id": "884",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Ather Energy IP Law Profile",
+      "notice_time": "07-10-2025 10:54"
+    },
+    {
+      "id": "883",
+      "type": "PLACEMENT",
+      "category": "Schedule",
+      "company": "CDC Placement schedule for 7th October",
+      "notice_time": "06-10-2025 21:39"
+    },
+    {
+      "id": "882",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SLB",
+      "notice_time": "06-10-2025 21:38"
+    },
+    {
+      "id": "881",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "PACE STOCK BROKING SERVICES PVT. LTD",
+      "notice_time": "06-10-2025 19:25"
+    },
+    {
+      "id": "880",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "FirstClub Technology",
+      "notice_time": "06-10-2025 18:05"
+    },
+    {
+      "id": "879",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "PACE STOCK BROKING SERVICES PVT. LTD",
+      "notice_time": "06-10-2025 18:03"
+    },
+    {
+      "id": "878",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "PACE STOCK BROKING SERVICES PVT. LTD",
+      "notice_time": "06-10-2025 17:31"
+    },
+    {
+      "id": "877",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "PACE STOCK BROKING SERVICES PVT. LTD",
+      "notice_time": "06-10-2025 17:30"
+    },
+    {
+      "id": "876",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Optum",
+      "notice_time": "06-10-2025 17:08"
+    },
+    {
+      "id": "875",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "SAMSUNG R&D INSTITUTE INDIA DELHI",
+      "notice_time": "06-10-2025 16:57"
+    },
+    {
+      "id": "874",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "OLA",
+      "notice_time": "06-10-2025 16:55"
+    },
+    {
+      "id": "873",
+      "type": "PLACEMENT",
+      "category": "CV Submission",
+      "company": "Multiple Companies",
+      "notice_time": "06-10-2025 16:54"
+    },
+    {
+      "id": "872",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "TATA Steel",
+      "notice_time": "06-10-2025 16:47"
+    },
+    {
+      "id": "871",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "SRI - Delhi",
+      "notice_time": "06-10-2025 15:26"
+    },
+    {
+      "id": "870",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ADOBE",
+      "notice_time": "06-10-2025 15:14"
+    },
+    {
+      "id": "869",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "CUMMINS",
+      "notice_time": "06-10-2025 15:10"
+    },
+    {
+      "id": "868",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Citi Bank",
+      "notice_time": "06-10-2025 12:47"
+    },
+    {
+      "id": "867",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Maxim AI",
+      "notice_time": "06-10-2025 12:45"
+    },
+    {
+      "id": "866",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "OLA",
+      "notice_time": "05-10-2025 20:59"
+    },
+    {
+      "id": "865",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "TwoCents Ventures",
+      "notice_time": "05-10-2025 20:58"
+    },
+    {
+      "id": "864",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "OLA",
+      "notice_time": "05-10-2025 15:44"
+    },
+    {
+      "id": "863",
+      "type": "PLACEMENT",
+      "category": "Schedule",
+      "company": "CDC Placement schedule for 6th October",
+      "notice_time": "05-10-2025 12:40"
+    },
+    {
+      "id": "862",
+      "type": "PLACEMENT",
+      "category": "CV Submission",
+      "company": "Deutsche Bank",
+      "notice_time": "05-10-2025 10:53"
+    },
+    {
+      "id": "861",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "TwoCents Ventures",
+      "notice_time": "04-10-2025 16:26"
+    },
+    {
+      "id": "860",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "TwoCents Ventures",
+      "notice_time": "04-10-2025 00:19"
+    },
+    {
+      "id": "859",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Citi Bank",
+      "notice_time": "04-10-2025 00:08"
+    },
+    {
+      "id": "858",
+      "type": "PLACEMENT",
+      "category": "CV Submission",
+      "company": "Deutsche Bank",
+      "notice_time": "03-10-2025 17:41"
+    },
+    {
+      "id": "857",
+      "type": "PLACEMENT",
+      "category": "CV Submission",
+      "company": "Multiple Companies",
+      "notice_time": "03-10-2025 17:18"
+    },
+    {
+      "id": "856",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Societe Generale",
+      "notice_time": "03-10-2025 17:15"
+    },
+    {
+      "id": "855",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "OLA",
+      "notice_time": "03-10-2025 17:14"
+    },
+    {
+      "id": "854",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "NUPI Infotech",
+      "notice_time": "03-10-2025 10:46"
+    },
+    {
+      "id": "853",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Caprae Capital",
+      "notice_time": "02-10-2025 14:26"
+    },
+    {
+      "id": "852",
+      "type": "PLACEMENT",
+      "category": "CV Submission",
+      "company": "Multiple Companies",
+      "notice_time": "01-10-2025 16:19"
+    },
+    {
+      "id": "851",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "I'm Beside You",
+      "notice_time": "01-10-2025 14:39"
+    },
+    {
+      "id": "850",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "L&T Finance",
+      "notice_time": "30-09-2025 22:39"
+    },
+    {
+      "id": "849",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "UPL",
+      "notice_time": "30-09-2025 13:43"
+    },
+    {
+      "id": "848",
+      "type": "PLACEMENT",
+      "category": "CV Submission",
+      "company": "Multiple Companies",
+      "notice_time": "30-09-2025 13:01"
+    },
+    {
+      "id": "847",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Nupi Infotech",
+      "notice_time": "30-09-2025 12:23"
+    },
+    {
+      "id": "846",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Caprae Capital",
+      "notice_time": "30-09-2025 12:19"
+    },
+    {
+      "id": "845",
+      "type": "PLACEMENT",
+      "category": "CV Submission",
+      "company": "Multiple Companies",
+      "notice_time": "29-09-2025 22:29"
+    },
+    {
+      "id": "844",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "E-Bay",
+      "notice_time": "29-09-2025 22:19"
+    },
+    {
+      "id": "843",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "SLB",
+      "notice_time": "29-09-2025 21:58"
+    },
+    {
+      "id": "842",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Qualocomm IP",
+      "notice_time": "29-09-2025 18:14"
+    },
+    {
+      "id": "841",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "IBM",
+      "notice_time": "29-09-2025 12:19"
+    },
+    {
+      "id": "839",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "KENVUE",
+      "notice_time": "27-09-2025 22:01"
+    },
+    {
+      "id": "838",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Sqwish",
+      "notice_time": "27-09-2025 16:59"
+    },
+    {
+      "id": "837",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ALTRODAV TECHNOLOGIES PVT LTD",
+      "notice_time": "27-09-2025 14:56"
+    },
+    {
+      "id": "836",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "eBay",
+      "notice_time": "27-09-2025 14:43"
+    },
+    {
+      "id": "835",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Wex Fintech India Private Limited",
+      "notice_time": "27-09-2025 14:41"
+    },
+    {
+      "id": "834",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Wex Fintech India Private Limited",
+      "notice_time": "27-09-2025 13:49"
+    },
+    {
+      "id": "833",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Wex Fintech India Private Limited",
+      "notice_time": "27-09-2025 11:42"
+    },
+    {
+      "id": "832",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Analog Devices",
+      "notice_time": "26-09-2025 20:37"
+    },
+    {
+      "id": "831",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC IIT Kharagpur: Preference/Experience Form",
+      "notice_time": "26-09-2025 20:16"
+    },
+    {
+      "id": "830",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV Verification",
+      "notice_time": "26-09-2025 18:24"
+    },
+    {
+      "id": "829",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Titan Engineering and Automation Limited",
+      "notice_time": "26-09-2025 17:20"
+    },
+    {
+      "id": "828",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "NoBroker Technologies Solutions Pvt LTD",
+      "notice_time": "26-09-2025 13:02"
+    },
+    {
+      "id": "827",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "GODREJ PROPERTIES",
+      "notice_time": "26-09-2025 12:49"
+    },
+    {
+      "id": "826",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Dr. Reddy's Laboratories Ltd.",
+      "notice_time": "26-09-2025 12:46"
+    },
+    {
+      "id": "825",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Pull Logic",
+      "notice_time": "26-09-2025 11:28"
+    },
+    {
+      "id": "824",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "25-09-2025 22:27"
+    },
+    {
+      "id": "823",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Wex Fintech India Private Limited",
+      "notice_time": "25-09-2025 16:32"
+    },
+    {
+      "id": "822",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "25-09-2025 12:50"
+    },
+    {
+      "id": "821",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "25-09-2025 12:38"
+    },
+    {
+      "id": "820",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV Verification",
+      "notice_time": "25-09-2025 12:34"
+    },
+    {
+      "id": "819",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "25-09-2025 12:28"
+    },
+    {
+      "id": "817",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "KENVUE",
+      "notice_time": "24-09-2025 21:17"
+    },
+    {
+      "id": "816",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "All",
+      "notice_time": "24-09-2025 19:12"
+    },
+    {
+      "id": "815",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Vellex Computing",
+      "notice_time": "23-09-2025 19:32"
+    },
+    {
+      "id": "814",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Hitachi Ventures",
+      "notice_time": "23-09-2025 19:23"
+    },
+    {
+      "id": "813",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "23-09-2025 19:16"
+    },
+    {
+      "id": "812",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "23-09-2025 19:14"
+    },
+    {
+      "id": "811",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "23-09-2025 19:13"
+    },
+    {
+      "id": "809",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Notice regarding PWD Students in CDC Placement Process",
+      "notice_time": "23-09-2025 17:36"
+    },
+    {
+      "id": "808",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "22-09-2025 18:52"
+    },
+    {
+      "id": "807",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "22-09-2025 18:50"
+    },
+    {
+      "id": "806",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "22-09-2025 18:45"
+    },
+    {
+      "id": "805",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "TECH MAHINDRA",
+      "notice_time": "22-09-2025 18:23"
+    },
+    {
+      "id": "804",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "TEXAS INSTRUMENTS",
+      "notice_time": "22-09-2025 18:14"
+    },
+    {
+      "id": "803",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "L&T Finance",
+      "notice_time": "22-09-2025 17:25"
+    },
+    {
+      "id": "802",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ACCENTURE OPERATIONS",
+      "notice_time": "22-09-2025 16:43"
+    },
+    {
+      "id": "801",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "NUTANIX",
+      "notice_time": "22-09-2025 16:40"
+    },
+    {
+      "id": "800",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "WALMART",
+      "notice_time": "22-09-2025 16:33"
+    },
+    {
+      "id": "799",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Qualcomm",
+      "notice_time": "22-09-2025 13:17"
+    },
+    {
+      "id": "798",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "TECH MAHINDRA",
+      "notice_time": "21-09-2025 17:42"
+    },
+    {
+      "id": "797",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "IBM",
+      "notice_time": "21-09-2025 17:39"
+    },
+    {
+      "id": "796",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Intellimation.Ai",
+      "notice_time": "19-09-2025 19:17"
+    },
+    {
+      "id": "795",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "L.E.K. Consulting",
+      "notice_time": "19-09-2025 19:16"
+    },
+    {
+      "id": "794",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Razorpay",
+      "notice_time": "19-09-2025 19:07"
+    },
+    {
+      "id": "793",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "19-09-2025 18:47"
+    },
+    {
+      "id": "792",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "19-09-2025 18:39"
+    },
+    {
+      "id": "791",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "CAIRN",
+      "notice_time": "19-09-2025 16:55"
+    },
+    {
+      "id": "790",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "CITI BANK",
+      "notice_time": "19-09-2025 16:49"
+    },
+    {
+      "id": "789",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "19-09-2025 13:19"
+    },
+    {
+      "id": "788",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "19-09-2025 13:18"
+    },
+    {
+      "id": "787",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "IBM India",
+      "notice_time": "19-09-2025 13:12"
+    },
+    {
+      "id": "786",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "IBM",
+      "notice_time": "19-09-2025 12:20"
+    },
+    {
+      "id": "785",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "18-09-2025 18:29"
+    },
+    {
+      "id": "784",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "18-09-2025 18:28"
+    },
+    {
+      "id": "783",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "AXTRIA",
+      "notice_time": "18-09-2025 15:54"
+    },
+    {
+      "id": "782",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "18-09-2025 13:25"
+    },
+    {
+      "id": "781",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "18-09-2025 13:24"
+    },
+    {
+      "id": "780",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "17-09-2025 18:27"
+    },
+    {
+      "id": "779",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "17-09-2025 18:25"
+    },
+    {
+      "id": "778",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "17-09-2025 14:01"
+    },
+    {
+      "id": "777",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "16-09-2025 18:07"
+    },
+    {
+      "id": "776",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "16-09-2025 16:44"
+    },
+    {
+      "id": "775",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CV verification for placement",
+      "notice_time": "16-09-2025 16:41"
+    },
+    {
+      "id": "774",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "HONEYWELL",
+      "notice_time": "16-09-2025 16:14"
+    },
+    {
+      "id": "773",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "GOOGLE",
+      "notice_time": "16-09-2025 11:24"
+    },
+    {
+      "id": "772",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Hitachi Ventures",
+      "notice_time": "16-09-2025 10:28"
+    },
+    {
+      "id": "770",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Intellimation AI",
+      "notice_time": "15-09-2025 19:24"
+    },
+    {
+      "id": "769",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CDC - Departmental Representative",
+      "notice_time": "15-09-2025 18:55"
+    },
+    {
+      "id": "768",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC - Departmental Representative",
+      "notice_time": "15-09-2025 18:54"
+    },
+    {
+      "id": "767",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Pull logic",
+      "notice_time": "15-09-2025 18:34"
+    },
+    {
+      "id": "766",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Cisco",
+      "notice_time": "15-09-2025 18:13"
+    },
+    {
+      "id": "765",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Various Companies",
+      "notice_time": "15-09-2025 17:42"
+    },
+    {
+      "id": "764",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Various Companies",
+      "notice_time": "15-09-2025 16:38"
+    },
+    {
+      "id": "763",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC IIT Kharagpur: Preference/Experience Form",
+      "notice_time": "15-09-2025 16:20"
+    },
+    {
+      "id": "762",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Writesonic",
+      "notice_time": "15-09-2025 16:15"
+    },
+    {
+      "id": "761",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ENPHASE",
+      "notice_time": "15-09-2025 13:09"
+    },
+    {
+      "id": "760",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "BATTERY SMART",
+      "notice_time": "15-09-2025 13:04"
+    },
+    {
+      "id": "759",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "OPTIVER",
+      "notice_time": "15-09-2025 12:58"
+    },
+    {
+      "id": "758",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Razorpay",
+      "notice_time": "15-09-2025 10:35"
+    },
+    {
+      "id": "757",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SIGIQ.AI",
+      "notice_time": "14-09-2025 18:11"
+    },
+    {
+      "id": "756",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Intellemation AI",
+      "notice_time": "14-09-2025 08:51"
+    },
+    {
+      "id": "755",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Vellex Computing",
+      "notice_time": "12-09-2025 20:33"
+    },
+    {
+      "id": "754",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Vellex Computing",
+      "notice_time": "12-09-2025 20:17"
+    },
+    {
+      "id": "753",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SIGIQ.AI",
+      "notice_time": "12-09-2025 20:16"
+    },
+    {
+      "id": "752",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "AXIS BANK",
+      "notice_time": "12-09-2025 20:01"
+    },
+    {
+      "id": "751",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement process 2025-26",
+      "notice_time": "12-09-2025 19:34"
+    },
+    {
+      "id": "750",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Writesonic",
+      "notice_time": "12-09-2025 16:00"
+    },
+    {
+      "id": "749",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ACCENTURE",
+      "notice_time": "12-09-2025 15:53"
+    },
+    {
+      "id": "748",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Pull Logic",
+      "notice_time": "12-09-2025 15:41"
+    },
+    {
+      "id": "747",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "KENVUE",
+      "notice_time": "12-09-2025 12:57"
+    },
+    {
+      "id": "746",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Warner Bros. Discovery",
+      "notice_time": "12-09-2025 12:56"
+    },
+    {
+      "id": "745",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "IHI Corporation",
+      "notice_time": "11-09-2025 18:12"
+    },
+    {
+      "id": "744",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "AB INBEV",
+      "notice_time": "11-09-2025 18:06"
+    },
+    {
+      "id": "743",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "AXIS BANK",
+      "notice_time": "11-09-2025 17:58"
+    },
+    {
+      "id": "742",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "AXIS BANK",
+      "notice_time": "11-09-2025 17:34"
+    },
+    {
+      "id": "741",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "AXIS BANK",
+      "notice_time": "11-09-2025 15:37"
+    },
+    {
+      "id": "740",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "AXIS BANK",
+      "notice_time": "11-09-2025 12:36"
+    },
+    {
+      "id": "739",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "AXIS BANK",
+      "notice_time": "11-09-2025 12:23"
+    },
+    {
+      "id": "738",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement Process 2025-26",
+      "notice_time": "11-09-2025 12:22"
+    },
+    {
+      "id": "737",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "I'M BESIDE YOU",
+      "notice_time": "11-09-2025 10:25"
+    },
+    {
+      "id": "736",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Hitachi Ventures",
+      "notice_time": "11-09-2025 10:23"
+    },
+    {
+      "id": "735",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Hitachi Ventures",
+      "notice_time": "10-09-2025 21:14"
+    },
+    {
+      "id": "734",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "INITO",
+      "notice_time": "10-09-2025 15:45"
+    },
+    {
+      "id": "733",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "JSW",
+      "notice_time": "09-09-2025 20:25"
+    },
+    {
+      "id": "732",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ThoughtSpot",
+      "notice_time": "09-09-2025 15:32"
+    },
+    {
+      "id": "731",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "Morgan Stanley",
+      "notice_time": "09-09-2025 12:20"
+    },
+    {
+      "id": "730",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "TVS MOTORS COMPANY LTD",
+      "notice_time": "09-09-2025 12:11"
+    },
+    {
+      "id": "729",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "MICRON",
+      "notice_time": "09-09-2025 11:43"
+    },
+    {
+      "id": "728",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "Trexquant",
+      "notice_time": "08-09-2025 17:54"
+    },
+    {
+      "id": "727",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement 2025-26",
+      "notice_time": "08-09-2025 13:22"
+    },
+    {
+      "id": "726",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Willings",
+      "notice_time": "06-09-2025 20:15"
+    },
+    {
+      "id": "725",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Willings",
+      "notice_time": "06-09-2025 20:04"
+    },
+    {
+      "id": "724",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Razorpay",
+      "notice_time": "06-09-2025 20:03"
+    },
+    {
+      "id": "723",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement 2025-26",
+      "notice_time": "06-09-2025 20:02"
+    },
+    {
+      "id": "722",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Diageo",
+      "notice_time": "05-09-2025 19:47"
+    },
+    {
+      "id": "721",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "JSW Group",
+      "notice_time": "05-09-2025 17:09"
+    },
+    {
+      "id": "720",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Sciforn",
+      "notice_time": "05-09-2025 13:52"
+    },
+    {
+      "id": "719",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Willings Inc",
+      "notice_time": "04-09-2025 21:44"
+    },
+    {
+      "id": "718",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "JSW Group",
+      "notice_time": "04-09-2025 21:39"
+    },
+    {
+      "id": "717",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Sciforn",
+      "notice_time": "04-09-2025 21:36"
+    },
+    {
+      "id": "716",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "",
+      "notice_time": "04-09-2025 21:35"
+    },
+    {
+      "id": "715",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Intellimation.Ai",
+      "notice_time": "04-09-2025 19:31"
+    },
+    {
+      "id": "714",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Razorpay",
+      "notice_time": "04-09-2025 15:46"
+    },
+    {
+      "id": "713",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Vellex Computing",
+      "notice_time": "04-09-2025 15:46"
+    },
+    {
+      "id": "712",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SRI Noida",
+      "notice_time": "04-09-2025 12:47"
+    },
+    {
+      "id": "711",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "AB InBev",
+      "notice_time": "04-09-2025 12:35"
+    },
+    {
+      "id": "710",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement Process 2025-26",
+      "notice_time": "04-09-2025 12:04"
+    },
+    {
+      "id": "709",
+      "type": "INTERNSHIP",
+      "category": "Updates On Stipend",
+      "company": "Pull Logic",
+      "notice_time": "03-09-2025 18:26"
+    },
+    {
+      "id": "708",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Pull Logic",
+      "notice_time": "03-09-2025 18:26"
+    },
+    {
+      "id": "707",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "CISCO",
+      "notice_time": "03-09-2025 17:28"
+    },
+    {
+      "id": "706",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "RAZORPAY",
+      "notice_time": "03-09-2025 16:17"
+    },
+    {
+      "id": "705",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Off Campus Internship Form",
+      "notice_time": "03-09-2025 15:56"
+    },
+    {
+      "id": "704",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "AXIS BANK",
+      "notice_time": "03-09-2025 15:51"
+    },
+    {
+      "id": "703",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SRI Noida",
+      "notice_time": "03-09-2025 15:45"
+    },
+    {
+      "id": "702",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Willings Inc",
+      "notice_time": "03-09-2025 11:44"
+    },
+    {
+      "id": "701",
+      "type": "PLACEMENT",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Soft-Skills Training",
+      "notice_time": "02-09-2025 16:41"
+    },
+    {
+      "id": "700",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SRI Noida",
+      "notice_time": "02-09-2025 15:57"
+    },
+    {
+      "id": "699",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Warner Bros Discovery",
+      "notice_time": "02-09-2025 15:57"
+    },
+    {
+      "id": "698",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Cisco",
+      "notice_time": "02-09-2025 15:56"
+    },
+    {
+      "id": "697",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SRI Noida",
+      "notice_time": "02-09-2025 15:54"
+    },
+    {
+      "id": "696",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Willings Inc",
+      "notice_time": "02-09-2025 15:53"
+    },
+    {
+      "id": "695",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Vellex Computing",
+      "notice_time": "02-09-2025 15:52"
+    },
+    {
+      "id": "694",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ADOBE",
+      "notice_time": "02-09-2025 11:35"
+    },
+    {
+      "id": "693",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement Process 2025-26",
+      "notice_time": "01-09-2025 15:58"
+    },
+    {
+      "id": "692",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Warner Bros. Discovery",
+      "notice_time": "31-08-2025 10:53"
+    },
+    {
+      "id": "691",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Lall & Sethi",
+      "notice_time": "31-08-2025 10:51"
+    },
+    {
+      "id": "690",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Bajaj Auto Ltd. and Bajaj Auto Technology Ltd.",
+      "notice_time": "31-08-2025 10:50"
+    },
+    {
+      "id": "689",
+      "type": "PLACEMENT",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "CV Building and Soft-Skills Training",
+      "notice_time": "30-08-2025 20:53"
+    },
+    {
+      "id": "688",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Expedia Group",
+      "notice_time": "30-08-2025 19:10"
+    },
+    {
+      "id": "687",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "General Mills",
+      "notice_time": "29-08-2025 19:57"
+    },
+    {
+      "id": "686",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "Intuit",
+      "notice_time": "29-08-2025 15:51"
+    },
+    {
+      "id": "685",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "NVIDIA",
+      "notice_time": "29-08-2025 12:56"
+    },
+    {
+      "id": "684",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "Pattern Technologies Pvt Ltd",
+      "notice_time": "29-08-2025 12:40"
+    },
+    {
+      "id": "683",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "Piramal Capital & Housing Finance Limited",
+      "notice_time": "29-08-2025 12:17"
+    },
+    {
+      "id": "682",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Expedia Group",
+      "notice_time": "29-08-2025 10:41"
+    },
+    {
+      "id": "681",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "GENERAL MILLS",
+      "notice_time": "29-08-2025 10:18"
+    },
+    {
+      "id": "680",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "General Mills",
+      "notice_time": "28-08-2025 22:50"
+    },
+    {
+      "id": "679",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Visa",
+      "notice_time": "28-08-2025 20:03"
+    },
+    {
+      "id": "678",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "BRITISH PETROLEUM (BP)",
+      "notice_time": "28-08-2025 17:21"
+    },
+    {
+      "id": "677",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Various Companies",
+      "notice_time": "28-08-2025 17:18"
+    },
+    {
+      "id": "676",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Warner Bros. Discovery",
+      "notice_time": "28-08-2025 16:17"
+    },
+    {
+      "id": "675",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "SRI-BANGALORE",
+      "notice_time": "28-08-2025 15:57"
+    },
+    {
+      "id": "674",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "VISA Inc.",
+      "notice_time": "28-08-2025 15:48"
+    },
+    {
+      "id": "673",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Diageo",
+      "notice_time": "28-08-2025 11:40"
+    },
+    {
+      "id": "672",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Lall & Sethi",
+      "notice_time": "28-08-2025 10:28"
+    },
+    {
+      "id": "671",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Bajaj Auto Ltd. and Bajaj Auto Technology Ltd.",
+      "notice_time": "28-08-2025 10:27"
+    },
+    {
+      "id": "670",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "SigIQ.ai",
+      "notice_time": "27-08-2025 18:42"
+    },
+    {
+      "id": "669",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "SAMSUNG R&D INSTITUTE - NOIDA",
+      "notice_time": "27-08-2025 17:48"
+    },
+    {
+      "id": "668",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Notice regarding Students Departmental Rank in CV",
+      "notice_time": "27-08-2025 16:47"
+    },
+    {
+      "id": "667",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "JSW Group",
+      "notice_time": "27-08-2025 15:51"
+    },
+    {
+      "id": "666",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "IBM INDIA",
+      "notice_time": "27-08-2025 14:54"
+    },
+    {
+      "id": "665",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "AVISO AI",
+      "notice_time": "27-08-2025 14:51"
+    },
+    {
+      "id": "664",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ATOMBERG TECHNOLOGIES PRIVATE LIMITED",
+      "notice_time": "27-08-2025 14:42"
+    },
+    {
+      "id": "663",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "TATA AIG",
+      "notice_time": "27-08-2025 14:39"
+    },
+    {
+      "id": "662",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "BAJAJ",
+      "notice_time": "27-08-2025 14:35"
+    },
+    {
+      "id": "661",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Diageo",
+      "notice_time": "26-08-2025 18:19"
+    },
+    {
+      "id": "660",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "GENERAL MILLS",
+      "notice_time": "26-08-2025 17:55"
+    },
+    {
+      "id": "659",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Internship Offers 2025-26",
+      "notice_time": "26-08-2025 17:28"
+    },
+    {
+      "id": "658",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "GENERAL MILLS",
+      "notice_time": "26-08-2025 12:02"
+    },
+    {
+      "id": "657",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "SigIQ.ai",
+      "notice_time": "26-08-2025 11:20"
+    },
+    {
+      "id": "656",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "GENERAL MILLS",
+      "notice_time": "26-08-2025 10:25"
+    },
+    {
+      "id": "655",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Visa Inc",
+      "notice_time": "25-08-2025 20:23"
+    },
+    {
+      "id": "654",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Siemens Technology And Services Private Limited",
+      "notice_time": "25-08-2025 17:15"
+    },
+    {
+      "id": "653",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "JSW Group",
+      "notice_time": "25-08-2025 16:20"
+    },
+    {
+      "id": "652",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement Process 2025-26",
+      "notice_time": "25-08-2025 15:59"
+    },
+    {
+      "id": "651",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Expedia Group",
+      "notice_time": "25-08-2025 15:58"
+    },
+    {
+      "id": "650",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Sciforn Solutions",
+      "notice_time": "25-08-2025 15:56"
+    },
+    {
+      "id": "649",
+      "type": "INTERNSHIP",
+      "category": "Updates On Stipend",
+      "company": "JSW Group",
+      "notice_time": "25-08-2025 15:55"
+    },
+    {
+      "id": "648",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "JSW Group",
+      "notice_time": "25-08-2025 15:55"
+    },
+    {
+      "id": "647",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "SAMSUNG R&D INSTITUTE - NOIDA",
+      "notice_time": "25-08-2025 15:54"
+    },
+    {
+      "id": "646",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "NATION WITH NAMO",
+      "notice_time": "25-08-2025 15:52"
+    },
+    {
+      "id": "645",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Infinite Possibilities",
+      "notice_time": "25-08-2025 15:51"
+    },
+    {
+      "id": "644",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Sciforn Solutions",
+      "notice_time": "25-08-2025 15:49"
+    },
+    {
+      "id": "643",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Optum",
+      "notice_time": "25-08-2025 12:25"
+    },
+    {
+      "id": "642",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "ExxonMobil",
+      "notice_time": "25-08-2025 12:00"
+    },
+    {
+      "id": "641",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "NoBroker",
+      "notice_time": "23-08-2025 20:59"
+    },
+    {
+      "id": "640",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Cisco India PVT Ltd",
+      "notice_time": "23-08-2025 16:34"
+    },
+    {
+      "id": "639",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Sciforn Solutions",
+      "notice_time": "23-08-2025 09:54"
+    },
+    {
+      "id": "638",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "NoBroker",
+      "notice_time": "23-08-2025 09:53"
+    },
+    {
+      "id": "637",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Cisco India PVT Ltd",
+      "notice_time": "22-08-2025 21:23"
+    },
+    {
+      "id": "636",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "MATHWORKS",
+      "notice_time": "22-08-2025 20:36"
+    },
+    {
+      "id": "635",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Siemens EDA",
+      "notice_time": "22-08-2025 20:34"
+    },
+    {
+      "id": "634",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Siemens EDA",
+      "notice_time": "22-08-2025 16:21"
+    },
+    {
+      "id": "633",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Zscaler",
+      "notice_time": "22-08-2025 16:01"
+    },
+    {
+      "id": "632",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "QUALCOMM",
+      "notice_time": "22-08-2025 15:54"
+    },
+    {
+      "id": "631",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Shortlists of various companies",
+      "notice_time": "22-08-2025 15:49"
+    },
+    {
+      "id": "630",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "TRUMIO",
+      "notice_time": "22-08-2025 12:29"
+    },
+    {
+      "id": "629",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "Siemens EDA (India) Private Limited",
+      "notice_time": "22-08-2025 12:22"
+    },
+    {
+      "id": "628",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Siemens Technology And Services Private Limited",
+      "notice_time": "22-08-2025 11:33"
+    },
+    {
+      "id": "627",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "GENERAL MILLS",
+      "notice_time": "22-08-2025 10:18"
+    },
+    {
+      "id": "626",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "TVS Motor IP Law",
+      "notice_time": "22-08-2025 10:17"
+    },
+    {
+      "id": "625",
+      "type": "INTERNSHIP",
+      "category": "CV Submission deadline/CGPA Cut-Off",
+      "company": "Sciforn Solutions",
+      "notice_time": "21-08-2025 20:06"
+    },
+    {
+      "id": "624",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "TVS Motor IP Law",
+      "notice_time": "21-08-2025 20:04"
+    },
+    {
+      "id": "623",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Application for Departmental Representative_2025-26",
+      "notice_time": "21-08-2025 19:16"
+    },
+    {
+      "id": "622",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Application for Departmental Representative_2025-26",
+      "notice_time": "21-08-2025 19:15"
+    },
+    {
+      "id": "619",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Mathworks",
+      "notice_time": "21-08-2025 17:48"
+    },
+    {
+      "id": "618",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Mathworks",
+      "notice_time": "21-08-2025 17:46"
+    },
+    {
+      "id": "617",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Mathworks",
+      "notice_time": "21-08-2025 12:15"
+    },
+    {
+      "id": "616",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement Process",
+      "notice_time": "21-08-2025 12:14"
+    },
+    {
+      "id": "615",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "AXXELA",
+      "notice_time": "21-08-2025 11:30"
+    },
+    {
+      "id": "614",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "JPMC",
+      "notice_time": "21-08-2025 11:19"
+    },
+    {
+      "id": "613",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ITC",
+      "notice_time": "21-08-2025 11:12"
+    },
+    {
+      "id": "612",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "BCG",
+      "notice_time": "21-08-2025 11:09"
+    },
+    {
+      "id": "611",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Various Companies",
+      "notice_time": "21-08-2025 10:57"
+    },
+    {
+      "id": "610",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Suzuki R&D Center India Private Limited",
+      "notice_time": "21-08-2025 10:30"
+    },
+    {
+      "id": "609",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "NATION WITH NAMO",
+      "notice_time": "20-08-2025 20:56"
+    },
+    {
+      "id": "608",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "TVS Motors IP",
+      "notice_time": "20-08-2025 20:55"
+    },
+    {
+      "id": "607",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Siemens EDA (India) Private Limited",
+      "notice_time": "20-08-2025 20:53"
+    },
+    {
+      "id": "606",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Siemens Technology And Services Private Limited",
+      "notice_time": "20-08-2025 20:52"
+    },
+    {
+      "id": "605",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "LINKEDIN",
+      "notice_time": "20-08-2025 17:04"
+    },
+    {
+      "id": "604",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "NoBroker Technologies Solutions Pvt. Ltd.",
+      "notice_time": "20-08-2025 13:03"
+    },
+    {
+      "id": "603",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "NATION WITH NAMO",
+      "notice_time": "20-08-2025 12:41"
+    },
+    {
+      "id": "602",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Trilogy",
+      "notice_time": "20-08-2025 10:18"
+    },
+    {
+      "id": "601",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Suzuki R&D Center India Private Limited",
+      "notice_time": "19-08-2025 23:33"
+    },
+    {
+      "id": "600",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "CDC Placement Process",
+      "notice_time": "19-08-2025 20:37"
+    },
+    {
+      "id": "599",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Linkedin",
+      "notice_time": "19-08-2025 20:34"
+    },
+    {
+      "id": "598",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Suzuki R&D Center India Private Limited",
+      "notice_time": "19-08-2025 20:33"
+    },
+    {
+      "id": "597",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement process 2025-26",
+      "notice_time": "19-08-2025 17:59"
+    },
+    {
+      "id": "595",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "GENERAL MILLS",
+      "notice_time": "19-08-2025 17:13"
+    },
+    {
+      "id": "593",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ONESUBSEA",
+      "notice_time": "19-08-2025 16:51"
+    },
+    {
+      "id": "592",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Mathworks",
+      "notice_time": "19-08-2025 16:48"
+    },
+    {
+      "id": "591",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "COHESITY",
+      "notice_time": "19-08-2025 16:47"
+    },
+    {
+      "id": "590",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ICICI Bank",
+      "notice_time": "19-08-2025 16:46"
+    },
+    {
+      "id": "589",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "TCG DIGITAL",
+      "notice_time": "19-08-2025 16:44"
+    },
+    {
+      "id": "588",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "GEP SOLUTIONS",
+      "notice_time": "19-08-2025 16:36"
+    },
+    {
+      "id": "587",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ICICI Bank",
+      "notice_time": "18-08-2025 22:43"
+    },
+    {
+      "id": "586",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Unify Apps",
+      "notice_time": "18-08-2025 22:10"
+    },
+    {
+      "id": "585",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "ICICI Bank",
+      "notice_time": "18-08-2025 22:08"
+    },
+    {
+      "id": "584",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ICICI Bank",
+      "notice_time": "18-08-2025 21:54"
+    },
+    {
+      "id": "583",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "MATHWORKS",
+      "notice_time": "18-08-2025 20:20"
+    },
+    {
+      "id": "582",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ETERNAL",
+      "notice_time": "18-08-2025 18:48"
+    },
+    {
+      "id": "581",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ETERNAL",
+      "notice_time": "18-08-2025 18:46"
+    },
+    {
+      "id": "580",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Application for Departmental Representative_2025-26",
+      "notice_time": "18-08-2025 18:15"
+    },
+    {
+      "id": "579",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Application for Departmental Representative_2025-26",
+      "notice_time": "18-08-2025 18:14"
+    },
+    {
+      "id": "578",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "IVY CAP VENTURES",
+      "notice_time": "18-08-2025 18:11"
+    },
+    {
+      "id": "577",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "AB InBev India",
+      "notice_time": "18-08-2025 17:20"
+    },
+    {
+      "id": "576",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ACCENTURE S&C",
+      "notice_time": "18-08-2025 16:34"
+    },
+    {
+      "id": "575",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "NATION WITH NAMO",
+      "notice_time": "18-08-2025 16:12"
+    },
+    {
+      "id": "574",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ETERNAL",
+      "notice_time": "18-08-2025 12:17"
+    },
+    {
+      "id": "573",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "NATION WITH NAMO",
+      "notice_time": "18-08-2025 12:16"
+    },
+    {
+      "id": "572",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "EIGHTFOLD AI",
+      "notice_time": "18-08-2025 11:47"
+    },
+    {
+      "id": "571",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "BNY MELLON",
+      "notice_time": "18-08-2025 11:41"
+    },
+    {
+      "id": "570",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ORACLE",
+      "notice_time": "18-08-2025 11:38"
+    },
+    {
+      "id": "569",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "NPCI",
+      "notice_time": "18-08-2025 11:29"
+    },
+    {
+      "id": "568",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "OpenHeart inc",
+      "notice_time": "18-08-2025 11:24"
+    },
+    {
+      "id": "567",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Suzuki R&D Center India Private Limited",
+      "notice_time": "17-08-2025 15:37"
+    },
+    {
+      "id": "566",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "EXXON MOBIL",
+      "notice_time": "16-08-2025 20:53"
+    },
+    {
+      "id": "565",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Suzuki R&D Center India Private Limited",
+      "notice_time": "16-08-2025 20:50"
+    },
+    {
+      "id": "564",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "ETERNAL",
+      "notice_time": "16-08-2025 17:02"
+    },
+    {
+      "id": "563",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ETERNAL",
+      "notice_time": "16-08-2025 13:51"
+    },
+    {
+      "id": "562",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ICICI Bank",
+      "notice_time": "16-08-2025 11:19"
+    },
+    {
+      "id": "561",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Zscaler",
+      "notice_time": "15-08-2025 21:34"
+    },
+    {
+      "id": "560",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ETERNAL",
+      "notice_time": "15-08-2025 18:38"
+    },
+    {
+      "id": "559",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ETERNAL",
+      "notice_time": "15-08-2025 18:37"
+    },
+    {
+      "id": "558",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ETERNAL",
+      "notice_time": "15-08-2025 18:09"
+    },
+    {
+      "id": "557",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "LAT Aerospace",
+      "notice_time": "15-08-2025 17:59"
+    },
+    {
+      "id": "556",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Eternal",
+      "notice_time": "15-08-2025 14:06"
+    },
+    {
+      "id": "555",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "GENERAL MILLS",
+      "notice_time": "14-08-2025 21:42"
+    },
+    {
+      "id": "554",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "SRI-BANGALORE",
+      "notice_time": "14-08-2025 18:52"
+    },
+    {
+      "id": "553",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "UnifyApps",
+      "notice_time": "14-08-2025 18:35"
+    },
+    {
+      "id": "552",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "NoBroker Technologies Solutions Pvt. Ltd.",
+      "notice_time": "14-08-2025 18:34"
+    },
+    {
+      "id": "551",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "TREXQUANT",
+      "notice_time": "14-08-2025 18:13"
+    },
+    {
+      "id": "550",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "AMERICAN EXPRESS",
+      "notice_time": "14-08-2025 18:11"
+    },
+    {
+      "id": "549",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "SRI-NOIDA",
+      "notice_time": "14-08-2025 17:59"
+    },
+    {
+      "id": "547",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "AB InBev India",
+      "notice_time": "14-08-2025 17:03"
+    },
+    {
+      "id": "546",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "JPMC",
+      "notice_time": "14-08-2025 14:13"
+    },
+    {
+      "id": "545",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Mastercard",
+      "notice_time": "14-08-2025 13:57"
+    },
+    {
+      "id": "544",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "UnifyApps",
+      "notice_time": "14-08-2025 11:39"
+    },
+    {
+      "id": "543",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Mastercard",
+      "notice_time": "14-08-2025 11:38"
+    },
+    {
+      "id": "542",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Zscaler",
+      "notice_time": "14-08-2025 11:11"
+    },
+    {
+      "id": "541",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "MASTERCARD",
+      "notice_time": "13-08-2025 20:07"
+    },
+    {
+      "id": "540",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Linkedin",
+      "notice_time": "13-08-2025 18:51"
+    },
+    {
+      "id": "539",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "JLR TBSI",
+      "notice_time": "13-08-2025 16:22"
+    },
+    {
+      "id": "538",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "MASTERCARD",
+      "notice_time": "13-08-2025 14:04"
+    },
+    {
+      "id": "537",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Mastercard",
+      "notice_time": "13-08-2025 13:23"
+    },
+    {
+      "id": "536",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "UnifyApps",
+      "notice_time": "13-08-2025 13:21"
+    },
+    {
+      "id": "535",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Day_4 Internship Offers 2025-26",
+      "notice_time": "13-08-2025 10:53"
+    },
+    {
+      "id": "534",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "MEDIA TEK",
+      "notice_time": "13-08-2025 10:27"
+    },
+    {
+      "id": "533",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "D.E. SHAW & Co.",
+      "notice_time": "13-08-2025 10:23"
+    },
+    {
+      "id": "532",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "NVIDIA",
+      "notice_time": "13-08-2025 10:19"
+    },
+    {
+      "id": "531",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "MASTERCARD",
+      "notice_time": "12-08-2025 20:53"
+    },
+    {
+      "id": "530",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "",
+      "notice_time": "12-08-2025 20:40"
+    },
+    {
+      "id": "529",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement Process_2025-26",
+      "notice_time": "12-08-2025 19:40"
+    },
+    {
+      "id": "528",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "COINBASE",
+      "notice_time": "12-08-2025 18:58"
+    },
+    {
+      "id": "527",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "DATABRICKS",
+      "notice_time": "12-08-2025 18:12"
+    },
+    {
+      "id": "526",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "CDC Placement Process_2025-26",
+      "notice_time": "12-08-2025 17:10"
+    },
+    {
+      "id": "525",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "I'M BESIDE YOU",
+      "notice_time": "12-08-2025 16:22"
+    },
+    {
+      "id": "524",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "ETERNAL",
+      "notice_time": "12-08-2025 16:02"
+    },
+    {
+      "id": "523",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "UnifyApps",
+      "notice_time": "12-08-2025 13:55"
+    },
+    {
+      "id": "522",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "QUANTBOX",
+      "notice_time": "12-08-2025 12:54"
+    },
+    {
+      "id": "521",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "GOLDMAN SACHS",
+      "notice_time": "12-08-2025 12:45"
+    },
+    {
+      "id": "520",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "UnifyApps",
+      "notice_time": "12-08-2025 12:17"
+    },
+    {
+      "id": "519",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "MASTERCARD",
+      "notice_time": "11-08-2025 23:09"
+    },
+    {
+      "id": "518",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "ABINBEV INDIA",
+      "notice_time": "11-08-2025 22:47"
+    },
+    {
+      "id": "517",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "MASTERCARD",
+      "notice_time": "11-08-2025 21:55"
+    },
+    {
+      "id": "516",
+      "type": "PLACEMENT",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Open House for placement_2025-26",
+      "notice_time": "11-08-2025 19:25"
+    },
+    {
+      "id": "515",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "WELLS FARGO",
+      "notice_time": "11-08-2025 17:34"
+    },
+    {
+      "id": "514",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "TEXAS INSTRUMENTS",
+      "notice_time": "11-08-2025 17:23"
+    },
+    {
+      "id": "513",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "KLA",
+      "notice_time": "11-08-2025 17:19"
+    },
+    {
+      "id": "512",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "PROCTER & GAMBLE",
+      "notice_time": "11-08-2025 17:16"
+    },
+    {
+      "id": "511",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "RIPPLING",
+      "notice_time": "11-08-2025 17:13"
+    },
+    {
+      "id": "510",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "NoBroker Technologies Solutions Pvt LTD",
+      "notice_time": "11-08-2025 13:17"
+    },
+    {
+      "id": "509",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "SALESFORCE",
+      "notice_time": "11-08-2025 13:04"
+    },
+    {
+      "id": "508",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ETERNAL",
+      "notice_time": "11-08-2025 12:36"
+    },
+    {
+      "id": "506",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ZEPTO",
+      "notice_time": "11-08-2025 12:20"
+    },
+    {
+      "id": "505",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "VEDANTA",
+      "notice_time": "11-08-2025 12:12"
+    },
+    {
+      "id": "504",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "AWL, INC.",
+      "notice_time": "11-08-2025 11:54"
+    },
+    {
+      "id": "503",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "JOHNSON & JOHNSON",
+      "notice_time": "11-08-2025 11:52"
+    },
+    {
+      "id": "502",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "LINKEDIN",
+      "notice_time": "11-08-2025 11:47"
+    },
+    {
+      "id": "501",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "TVS Motor",
+      "notice_time": "11-08-2025 11:46"
+    },
+    {
+      "id": "500",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Kognitos",
+      "notice_time": "10-08-2025 23:19"
+    },
+    {
+      "id": "499",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Shortlists of Various Companies",
+      "notice_time": "10-08-2025 21:25"
+    },
+    {
+      "id": "498",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Samsung Research Institute- Bangalore",
+      "notice_time": "10-08-2025 13:50"
+    },
+    {
+      "id": "497",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Trilogy",
+      "notice_time": "10-08-2025 13:49"
+    },
+    {
+      "id": "496",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Eternal",
+      "notice_time": "09-08-2025 22:46"
+    },
+    {
+      "id": "495",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Eternal",
+      "notice_time": "09-08-2025 18:22"
+    },
+    {
+      "id": "494",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "SPRINKLR",
+      "notice_time": "09-08-2025 18:03"
+    },
+    {
+      "id": "493",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "DYNAMIC TECHNOLOGY LAB PTE. LTD.",
+      "notice_time": "09-08-2025 17:58"
+    },
+    {
+      "id": "492",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Eternal",
+      "notice_time": "09-08-2025 17:12"
+    },
+    {
+      "id": "491",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Jaguar Land Rover",
+      "notice_time": "09-08-2025 16:27"
+    },
+    {
+      "id": "490",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Extended Shortlist",
+      "notice_time": "09-08-2025 10:24"
+    },
+    {
+      "id": "489",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Intraday 9th August",
+      "notice_time": "08-08-2025 21:36"
+    },
+    {
+      "id": "488",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Shortlists of Various Companies",
+      "notice_time": "08-08-2025 21:34"
+    },
+    {
+      "id": "487",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "LAT Aerospace",
+      "notice_time": "08-08-2025 18:40"
+    },
+    {
+      "id": "486",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ETERNAL",
+      "notice_time": "08-08-2025 15:58"
+    },
+    {
+      "id": "485",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Application for Departmental Representative_2025-26",
+      "notice_time": "08-08-2025 15:46"
+    },
+    {
+      "id": "484",
+      "type": "PLACEMENT",
+      "category": "Urgent",
+      "company": "Application for Departmental Representative_2025-26",
+      "notice_time": "08-08-2025 15:46"
+    },
+    {
+      "id": "483",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "ALPHAGREP",
+      "notice_time": "08-08-2025 14:06"
+    },
+    {
+      "id": "482",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "NATION WITH NAMO",
+      "notice_time": "08-08-2025 14:00"
+    },
+    {
+      "id": "481",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Mastercard",
+      "notice_time": "08-08-2025 12:27"
+    },
+    {
+      "id": "480",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "DEVREV",
+      "notice_time": "08-08-2025 11:17"
+    },
+    {
+      "id": "479",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ETERNAL",
+      "notice_time": "08-08-2025 11:13"
+    },
+    {
+      "id": "478",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "JSW Group",
+      "notice_time": "08-08-2025 11:02"
+    },
+    {
+      "id": "477",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Siemens EDA",
+      "notice_time": "08-08-2025 10:45"
+    },
+    {
+      "id": "476",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Siemens EDA",
+      "notice_time": "08-08-2025 10:24"
+    },
+    {
+      "id": "475",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Siemens EDA",
+      "notice_time": "07-08-2025 21:29"
+    },
+    {
+      "id": "474",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Siemens EDA",
+      "notice_time": "07-08-2025 21:27"
+    },
+    {
+      "id": "473",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Barclays",
+      "notice_time": "07-08-2025 21:03"
+    },
+    {
+      "id": "472",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Kognitos",
+      "notice_time": "07-08-2025 19:47"
+    },
+    {
+      "id": "470",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "British Petroleum",
+      "notice_time": "07-08-2025 18:12"
+    },
+    {
+      "id": "469",
+      "type": "INTERNSHIP",
+      "category": "PPO",
+      "company": "EXXON MOBIL",
+      "notice_time": "07-08-2025 14:56"
+    },
+    {
+      "id": "468",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Siemens EDA (India) Private Limited",
+      "notice_time": "07-08-2025 14:52"
+    },
+    {
+      "id": "467",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "CBX1 India Pvt ltd.",
+      "notice_time": "07-08-2025 14:44"
+    },
+    {
+      "id": "466",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "FIDELITY INVESTMENTS",
+      "notice_time": "07-08-2025 12:30"
+    },
+    {
+      "id": "465",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "BLACKROCK",
+      "notice_time": "07-08-2025 12:27"
+    },
+    {
+      "id": "464",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "British Petroleum",
+      "notice_time": "07-08-2025 07:41"
+    },
+    {
+      "id": "463",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Tests of various companies",
+      "notice_time": "07-08-2025 07:40"
+    },
+    {
+      "id": "462",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Jaguar Land Rover Technology and Business Services India Private Limited",
+      "notice_time": "06-08-2025 17:29"
+    },
+    {
+      "id": "461",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Jaguar Land Rover Technology and Business Services India Private Limited",
+      "notice_time": "06-08-2025 15:13"
+    },
+    {
+      "id": "460",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Kognitos",
+      "notice_time": "06-08-2025 13:21"
+    },
+    {
+      "id": "459",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "I'm Beside You",
+      "notice_time": "06-08-2025 12:46"
+    },
+    {
+      "id": "458",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Jaguar Land Rover Technology and Business Services India Private Limited",
+      "notice_time": "06-08-2025 12:09"
+    },
+    {
+      "id": "456",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "I'mbesideyou Inc.",
+      "notice_time": "05-08-2025 17:37"
+    },
+    {
+      "id": "455",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Purplle",
+      "notice_time": "05-08-2025 17:32"
+    },
+    {
+      "id": "454",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Ivycap Ventures",
+      "notice_time": "05-08-2025 17:29"
+    },
+    {
+      "id": "453",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "FUTURES FIRST",
+      "notice_time": "05-08-2025 16:56"
+    },
+    {
+      "id": "452",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "OLA",
+      "notice_time": "05-08-2025 16:51"
+    },
+    {
+      "id": "451",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Jaguar Land Rover Technology and Business Services India Private Limited",
+      "notice_time": "05-08-2025 14:50"
+    },
+    {
+      "id": "449",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "KEPLER CANON",
+      "notice_time": "05-08-2025 11:09"
+    },
+    {
+      "id": "448",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "Rubrik",
+      "notice_time": "05-08-2025 10:50"
+    },
+    {
+      "id": "447",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "IVYCAP VENTURES",
+      "notice_time": "05-08-2025 10:13"
+    },
+    {
+      "id": "445",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "I'M BESIDE YOU",
+      "notice_time": "05-08-2025 10:05"
+    },
+    {
+      "id": "444",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Tests of various companies",
+      "notice_time": "05-08-2025 00:15"
+    },
+    {
+      "id": "443",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Jaguar Land Rover Technology and Business Services India Private Limited",
+      "notice_time": "04-08-2025 20:42"
+    },
+    {
+      "id": "442",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Day_3 Internship Offers 2025-26",
+      "notice_time": "04-08-2025 19:51"
+    },
+    {
+      "id": "441",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "Graviton",
+      "notice_time": "04-08-2025 19:46"
+    },
+    {
+      "id": "440",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "IvyCap Ventures",
+      "notice_time": "04-08-2025 19:33"
+    },
+    {
+      "id": "438",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "IvyCap Ventures",
+      "notice_time": "04-08-2025 15:58"
+    },
+    {
+      "id": "437",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Jaguar Land Rover Technology and Business Services India Private Limited",
+      "notice_time": "04-08-2025 15:56"
+    },
+    {
+      "id": "436",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "L.E.K. CONSULTING",
+      "notice_time": "04-08-2025 15:52"
+    },
+    {
+      "id": "435",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Jaguar Land Rover Technology and Business Services India Private Limited",
+      "notice_time": "03-08-2025 14:54"
+    },
+    {
+      "id": "434",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Pattern Technologies",
+      "notice_time": "03-08-2025 13:38"
+    },
+    {
+      "id": "433",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Limechat",
+      "notice_time": "03-08-2025 10:28"
+    },
+    {
+      "id": "432",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Neo Group",
+      "notice_time": "03-08-2025 10:12"
+    },
+    {
+      "id": "431",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Intraday 3rd August",
+      "notice_time": "03-08-2025 01:46"
+    },
+    {
+      "id": "430",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Shortlists of Various Companies",
+      "notice_time": "03-08-2025 01:44"
+    },
+    {
+      "id": "429",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Shortlists of Various Companies",
+      "notice_time": "02-08-2025 22:16"
+    },
+    {
+      "id": "428",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "AXXELA",
+      "notice_time": "02-08-2025 21:34"
+    },
+    {
+      "id": "427",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "LimeChat",
+      "notice_time": "02-08-2025 19:09"
+    },
+    {
+      "id": "426",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Axxela",
+      "notice_time": "02-08-2025 16:04"
+    },
+    {
+      "id": "425",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Axxela",
+      "notice_time": "02-08-2025 15:35"
+    },
+    {
+      "id": "423",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "NVIDIA",
+      "notice_time": "02-08-2025 14:47"
+    },
+    {
+      "id": "422",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Oracle",
+      "notice_time": "02-08-2025 12:19"
+    },
+    {
+      "id": "421",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Intraday 2nd August",
+      "notice_time": "01-08-2025 22:32"
+    },
+    {
+      "id": "420",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Shortlists of Various Companies",
+      "notice_time": "01-08-2025 21:32"
+    },
+    {
+      "id": "419",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "PATTERN",
+      "notice_time": "01-08-2025 18:04"
+    },
+    {
+      "id": "418",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Shortlists of Various Companies",
+      "notice_time": "01-08-2025 17:54"
+    },
+    {
+      "id": "417",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "COHESITY",
+      "notice_time": "01-08-2025 15:57"
+    },
+    {
+      "id": "416",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "MASERCARD",
+      "notice_time": "01-08-2025 14:38"
+    },
+    {
+      "id": "415",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Barclays Global Shared Services",
+      "notice_time": "01-08-2025 14:12"
+    },
+    {
+      "id": "414",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "UIPATH",
+      "notice_time": "01-08-2025 10:32"
+    },
+    {
+      "id": "413",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "BIDGELY TECHNOLOGIES",
+      "notice_time": "01-08-2025 10:29"
+    },
+    {
+      "id": "412",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "UBER",
+      "notice_time": "01-08-2025 10:25"
+    },
+    {
+      "id": "411",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "TECH MAHINDRA",
+      "notice_time": "01-08-2025 10:22"
+    },
+    {
+      "id": "410",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Tests of various companies",
+      "notice_time": "31-07-2025 21:45"
+    },
+    {
+      "id": "409",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Pattern Technologies",
+      "notice_time": "31-07-2025 20:46"
+    },
+    {
+      "id": "408",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "FINMECHANICS INDIA PVT. LTD",
+      "notice_time": "31-07-2025 19:34"
+    },
+    {
+      "id": "407",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "FLIPKART",
+      "notice_time": "31-07-2025 17:03"
+    },
+    {
+      "id": "406",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "INFO EDGE VENTURES",
+      "notice_time": "31-07-2025 15:42"
+    },
+    {
+      "id": "405",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Zenskar",
+      "notice_time": "31-07-2025 15:24"
+    },
+    {
+      "id": "404",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "BP",
+      "notice_time": "31-07-2025 15:22"
+    },
+    {
+      "id": "403",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Jaguar Land Rover Technology and Business Services India Private Limited",
+      "notice_time": "31-07-2025 10:53"
+    },
+    {
+      "id": "402",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "INSURITY",
+      "notice_time": "31-07-2025 10:47"
+    },
+    {
+      "id": "401",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Tests of various companies",
+      "notice_time": "30-07-2025 23:17"
+    },
+    {
+      "id": "400",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CORRIDOR PLATFORMS",
+      "notice_time": "30-07-2025 19:57"
+    },
+    {
+      "id": "399",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "BARCLAYS",
+      "notice_time": "30-07-2025 18:35"
+    },
+    {
+      "id": "398",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "AXXELA",
+      "notice_time": "30-07-2025 18:34"
+    },
+    {
+      "id": "397",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "PURPLLE",
+      "notice_time": "30-07-2025 18:33"
+    },
+    {
+      "id": "396",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Amazon",
+      "notice_time": "30-07-2025 16:50"
+    },
+    {
+      "id": "395",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "SAMSUNG RESEARCH BENGALURU",
+      "notice_time": "30-07-2025 16:07"
+    },
+    {
+      "id": "394",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Dynamic Technology Labs (DTL)",
+      "notice_time": "30-07-2025 15:57"
+    },
+    {
+      "id": "393",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Info Edge India Limited",
+      "notice_time": "30-07-2025 15:35"
+    },
+    {
+      "id": "392",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Piramal Pharma Limited",
+      "notice_time": "30-07-2025 12:57"
+    },
+    {
+      "id": "391",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Dynamic Technology Labs (DTL)",
+      "notice_time": "30-07-2025 11:36"
+    },
+    {
+      "id": "390",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Media.net",
+      "notice_time": "30-07-2025 11:30"
+    },
+    {
+      "id": "389",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "IBM",
+      "notice_time": "30-07-2025 11:19"
+    },
+    {
+      "id": "388",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "Mastercard",
+      "notice_time": "30-07-2025 11:13"
+    },
+    {
+      "id": "387",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ORACLE",
+      "notice_time": "30-07-2025 10:25"
+    },
+    {
+      "id": "386",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Flipkart",
+      "notice_time": "30-07-2025 10:18"
+    },
+    {
+      "id": "385",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Tests of various companies",
+      "notice_time": "29-07-2025 23:18"
+    },
+    {
+      "id": "384",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Pattern Technologies",
+      "notice_time": "29-07-2025 22:26"
+    },
+    {
+      "id": "383",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Fidelity Investments",
+      "notice_time": "29-07-2025 21:32"
+    },
+    {
+      "id": "382",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Purplle.com",
+      "notice_time": "29-07-2025 18:49"
+    },
+    {
+      "id": "381",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "HONEYWELL",
+      "notice_time": "29-07-2025 18:43"
+    },
+    {
+      "id": "380",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "INSURITY",
+      "notice_time": "29-07-2025 16:49"
+    },
+    {
+      "id": "379",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "INFOEDGE",
+      "notice_time": "29-07-2025 16:47"
+    },
+    {
+      "id": "378",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "FinMechanics India Pvt. Ltd",
+      "notice_time": "29-07-2025 16:14"
+    },
+    {
+      "id": "377",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "PATTERN (Software Engineering Intern)",
+      "notice_time": "29-07-2025 15:46"
+    },
+    {
+      "id": "376",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "LimeChat",
+      "notice_time": "29-07-2025 15:45"
+    },
+    {
+      "id": "375",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "LIMECHAT",
+      "notice_time": "29-07-2025 15:45"
+    },
+    {
+      "id": "374",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Plivo India",
+      "notice_time": "29-07-2025 15:43"
+    },
+    {
+      "id": "373",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "UnifyApps",
+      "notice_time": "29-07-2025 15:41"
+    },
+    {
+      "id": "372",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Fidelity Investment",
+      "notice_time": "29-07-2025 14:46"
+    },
+    {
+      "id": "371",
+      "type": "INTERNSHIP",
+      "category": "General",
+      "company": "Various Companies",
+      "notice_time": "29-07-2025 12:01"
+    },
+    {
+      "id": "370",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Tests of various companies",
+      "notice_time": "29-07-2025 11:53"
+    },
+    {
+      "id": "369",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "AUXIA",
+      "notice_time": "29-07-2025 10:44"
+    },
+    {
+      "id": "368",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "HONEYWELL",
+      "notice_time": "29-07-2025 10:35"
+    },
+    {
+      "id": "367",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "AXXELA",
+      "notice_time": "29-07-2025 10:35"
+    },
+    {
+      "id": "366",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "PATTERN",
+      "notice_time": "29-07-2025 10:33"
+    },
+    {
+      "id": "365",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "INFOEDGE",
+      "notice_time": "29-07-2025 10:31"
+    },
+    {
+      "id": "364",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "BIDGELY TECHNOLOGIES",
+      "notice_time": "29-07-2025 10:28"
+    },
+    {
+      "id": "363",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "MEESHO",
+      "notice_time": "29-07-2025 10:27"
+    },
+    {
+      "id": "362",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "FLIPKART",
+      "notice_time": "28-07-2025 21:15"
+    },
+    {
+      "id": "361",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "FLIPKART",
+      "notice_time": "28-07-2025 18:17"
+    },
+    {
+      "id": "360",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "FLIPKART",
+      "notice_time": "28-07-2025 18:13"
+    },
+    {
+      "id": "359",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "HONEYWELL",
+      "notice_time": "28-07-2025 18:10"
+    },
+    {
+      "id": "358",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Accenture GN (Data & AI)",
+      "notice_time": "28-07-2025 17:56"
+    },
+    {
+      "id": "357",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "MEESHO",
+      "notice_time": "28-07-2025 17:07"
+    },
+    {
+      "id": "356",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "COHESITY",
+      "notice_time": "28-07-2025 17:05"
+    },
+    {
+      "id": "355",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Suzuki R&D Center India Private Limited",
+      "notice_time": "28-07-2025 16:29"
+    },
+    {
+      "id": "354",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Media.net",
+      "notice_time": "28-07-2025 16:15"
+    },
+    {
+      "id": "353",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Insurity Solutions India Private Limited",
+      "notice_time": "28-07-2025 16:11"
+    },
+    {
+      "id": "352",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "LimeChat",
+      "notice_time": "28-07-2025 16:04"
+    },
+    {
+      "id": "351",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "FIDELITY INVESTMENTS",
+      "notice_time": "28-07-2025 14:09"
+    },
+    {
+      "id": "350",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Accenture GN (Data & AI)",
+      "notice_time": "28-07-2025 14:01"
+    },
+    {
+      "id": "349",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "FLIPKART",
+      "notice_time": "28-07-2025 12:49"
+    },
+    {
+      "id": "348",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Dynamic Technology Labs",
+      "notice_time": "28-07-2025 12:24"
+    },
+    {
+      "id": "347",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "HONEYWELL",
+      "notice_time": "28-07-2025 12:14"
+    },
+    {
+      "id": "346",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Pattern Technologies Pvt Ltd",
+      "notice_time": "28-07-2025 11:54"
+    },
+    {
+      "id": "345",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Pattern Technologies Pvt Ltd",
+      "notice_time": "28-07-2025 11:53"
+    },
+    {
+      "id": "344",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "UNIFYAPPS",
+      "notice_time": "28-07-2025 11:45"
+    },
+    {
+      "id": "343",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Flipkart",
+      "notice_time": "28-07-2025 11:25"
+    },
+    {
+      "id": "342",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "DevRev",
+      "notice_time": "28-07-2025 11:24"
+    },
+    {
+      "id": "341",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "FinMechanics India Pvt. Ltd",
+      "notice_time": "28-07-2025 11:22"
+    },
+    {
+      "id": "340",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "INFO EDGE",
+      "notice_time": "28-07-2025 10:10"
+    },
+    {
+      "id": "339",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "MEESHO",
+      "notice_time": "28-07-2025 10:08"
+    },
+    {
+      "id": "338",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Day_2 Internship Offers 2025-26",
+      "notice_time": "27-07-2025 21:43"
+    },
+    {
+      "id": "337",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Trilogy",
+      "notice_time": "27-07-2025 21:36"
+    },
+    {
+      "id": "336",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "INFOEDGE",
+      "notice_time": "27-07-2025 21:35"
+    },
+    {
+      "id": "335",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "CoinBase",
+      "notice_time": "27-07-2025 21:33"
+    },
+    {
+      "id": "334",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Dynamic Technology Lab Pte. Ltd.",
+      "notice_time": "27-07-2025 19:51"
+    },
+    {
+      "id": "333",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "BAJAJ AUTO",
+      "notice_time": "27-07-2025 14:55"
+    },
+    {
+      "id": "332",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Plivo India",
+      "notice_time": "27-07-2025 13:48"
+    },
+    {
+      "id": "331",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Auxia",
+      "notice_time": "27-07-2025 13:46"
+    },
+    {
+      "id": "330",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Dynamic Technology Lab Pte. Ltd.",
+      "notice_time": "27-07-2025 13:44"
+    },
+    {
+      "id": "329",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "NVIDIA",
+      "notice_time": "27-07-2025 13:00"
+    },
+    {
+      "id": "328",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "NVIDIA",
+      "notice_time": "27-07-2025 12:45"
+    },
+    {
+      "id": "327",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Wells Fargo",
+      "notice_time": "27-07-2025 11:16"
+    },
+    {
+      "id": "326",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "SAMSUNG RESEARCH BENGALURU",
+      "notice_time": "27-07-2025 09:57"
+    },
+    {
+      "id": "325",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "SAMSUNG RESEARCH BENGALURU",
+      "notice_time": "27-07-2025 09:56"
+    },
+    {
+      "id": "324",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "NVIDIA",
+      "notice_time": "27-07-2025 09:52"
+    },
+    {
+      "id": "323",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "AWL, Inc.",
+      "notice_time": "27-07-2025 09:28"
+    },
+    {
+      "id": "322",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Pkeday Advisors LLP",
+      "notice_time": "27-07-2025 08:57"
+    },
+    {
+      "id": "321",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Shortlist of Various Companies",
+      "notice_time": "27-07-2025 02:27"
+    },
+    {
+      "id": "320",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Shortlist of Various Companies",
+      "notice_time": "27-07-2025 02:13"
+    },
+    {
+      "id": "319",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "INTRADAY 27th July",
+      "notice_time": "27-07-2025 01:51"
+    },
+    {
+      "id": "318",
+      "type": "INTERNSHIP",
+      "category": "Result",
+      "company": "Day_1 Internship Offers 2025-26",
+      "notice_time": "26-07-2025 22:17"
+    },
+    {
+      "id": "317",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "BLACKROCK",
+      "notice_time": "26-07-2025 19:06"
+    },
+    {
+      "id": "316",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "NATWEST",
+      "notice_time": "26-07-2025 16:59"
+    },
+    {
+      "id": "315",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "BLACKROCK",
+      "notice_time": "26-07-2025 16:56"
+    },
+    {
+      "id": "314",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "NATWEST",
+      "notice_time": "26-07-2025 16:33"
+    },
+    {
+      "id": "313",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "AMERICAN EXPRESS",
+      "notice_time": "26-07-2025 15:39"
+    },
+    {
+      "id": "312",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ADOBE",
+      "notice_time": "26-07-2025 14:53"
+    },
+    {
+      "id": "311",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "RIPPLING",
+      "notice_time": "26-07-2025 14:49"
+    },
+    {
+      "id": "310",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "American Express",
+      "notice_time": "26-07-2025 14:07"
+    },
+    {
+      "id": "309",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "ATLASSIAN",
+      "notice_time": "26-07-2025 13:52"
+    },
+    {
+      "id": "308",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "SAMSARA",
+      "notice_time": "26-07-2025 13:41"
+    },
+    {
+      "id": "307",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "American Express",
+      "notice_time": "26-07-2025 13:29"
+    },
+    {
+      "id": "306",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "ITC",
+      "notice_time": "26-07-2025 11:03"
+    },
+    {
+      "id": "305",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Atlassian",
+      "notice_time": "26-07-2025 09:06"
+    },
+    {
+      "id": "304",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "HUL",
+      "notice_time": "26-07-2025 09:01"
+    },
+    {
+      "id": "303",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Google",
+      "notice_time": "26-07-2025 08:38"
+    },
+    {
+      "id": "302",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "NOMURA",
+      "notice_time": "26-07-2025 07:03"
+    },
+    {
+      "id": "301",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "UBER",
+      "notice_time": "26-07-2025 06:19"
+    },
+    {
+      "id": "300",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "MICROSOFT",
+      "notice_time": "26-07-2025 06:16"
+    },
+    {
+      "id": "299",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "UBER",
+      "notice_time": "26-07-2025 04:27"
+    },
+    {
+      "id": "298",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "ITC",
+      "notice_time": "26-07-2025 04:13"
+    },
+    {
+      "id": "297",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Neo Wealth and Asset Management",
+      "notice_time": "26-07-2025 04:12"
+    },
+    {
+      "id": "296",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "UBER",
+      "notice_time": "26-07-2025 03:34"
+    },
+    {
+      "id": "295",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "BlackRock",
+      "notice_time": "26-07-2025 02:45"
+    },
+    {
+      "id": "294",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "DE Shaw",
+      "notice_time": "26-07-2025 02:37"
+    },
+    {
+      "id": "293",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "GLEAN",
+      "notice_time": "26-07-2025 01:10"
+    },
+    {
+      "id": "292",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Accenture GN (Data & AI)",
+      "notice_time": "26-07-2025 01:09"
+    },
+    {
+      "id": "291",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "ADOBE",
+      "notice_time": "25-07-2025 23:39"
+    },
+    {
+      "id": "290",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Bidgely Technologies",
+      "notice_time": "25-07-2025 23:30"
+    },
+    {
+      "id": "289",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Adobe MDSR",
+      "notice_time": "25-07-2025 23:27"
+    },
+    {
+      "id": "288",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Nomura",
+      "notice_time": "25-07-2025 23:22"
+    },
+    {
+      "id": "287",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "GLEAN",
+      "notice_time": "25-07-2025 22:43"
+    },
+    {
+      "id": "286",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "NK Securities",
+      "notice_time": "25-07-2025 22:37"
+    },
+    {
+      "id": "285",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Alphagrep",
+      "notice_time": "25-07-2025 21:58"
+    },
+    {
+      "id": "284",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Databricks",
+      "notice_time": "25-07-2025 20:11"
+    },
+    {
+      "id": "283",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Shortlist of Various Companies",
+      "notice_time": "25-07-2025 19:07"
+    },
+    {
+      "id": "282",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Databricks",
+      "notice_time": "25-07-2025 18:48"
+    },
+    {
+      "id": "281",
+      "type": "INTERNSHIP",
+      "category": "General",
+      "company": "Advisory Note",
+      "notice_time": "25-07-2025 18:47"
+    },
+    {
+      "id": "280",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "INTRADAY 26th July",
+      "notice_time": "25-07-2025 17:38"
+    },
+    {
+      "id": "279",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Graviton Research Capital",
+      "notice_time": "25-07-2025 16:42"
+    },
+    {
+      "id": "278",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "DTL",
+      "notice_time": "25-07-2025 16:21"
+    },
+    {
+      "id": "277",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Shortlist of Various Companies",
+      "notice_time": "25-07-2025 15:39"
+    },
+    {
+      "id": "276",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Suzuki R&D Center India Private Limited",
+      "notice_time": "25-07-2025 15:05"
+    },
+    {
+      "id": "275",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Preference Form",
+      "notice_time": "25-07-2025 15:00"
+    },
+    {
+      "id": "274",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Shortlist of Various Companies",
+      "notice_time": "25-07-2025 14:26"
+    },
+    {
+      "id": "273",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Nomura",
+      "notice_time": "25-07-2025 13:36"
+    },
+    {
+      "id": "272",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "ITC Limited",
+      "notice_time": "25-07-2025 13:30"
+    },
+    {
+      "id": "271",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Shortlist of Various Companies",
+      "notice_time": "25-07-2025 11:47"
+    },
+    {
+      "id": "270",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "INTUIT",
+      "notice_time": "24-07-2025 22:02"
+    },
+    {
+      "id": "269",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Neo Wealth & Asset Management",
+      "notice_time": "24-07-2025 17:06"
+    },
+    {
+      "id": "268",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Shortlist of Various Companies",
+      "notice_time": "24-07-2025 16:29"
+    },
+    {
+      "id": "267",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Shortlist of Various Companies",
+      "notice_time": "24-07-2025 16:26"
+    },
+    {
+      "id": "266",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "RIPPLING",
+      "notice_time": "24-07-2025 15:36"
+    },
+    {
+      "id": "265",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CDC Internship process 2025-26",
+      "notice_time": "24-07-2025 15:22"
+    },
+    {
+      "id": "264",
+      "type": "INTERNSHIP",
+      "category": "General",
+      "company": "Mock Interview Link",
+      "notice_time": "24-07-2025 13:03"
+    },
+    {
+      "id": "263",
+      "type": "INTERNSHIP",
+      "category": "General",
+      "company": "HEST 2025",
+      "notice_time": "24-07-2025 12:51"
+    },
+    {
+      "id": "262",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "CDC Internship schedule for 24th July",
+      "notice_time": "24-07-2025 10:22"
+    },
+    {
+      "id": "259",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "WINZO",
+      "notice_time": "23-07-2025 21:12"
+    },
+    {
+      "id": "258",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Oracle",
+      "notice_time": "23-07-2025 21:09"
+    },
+    {
+      "id": "257",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CV Building for Internship 2025-26",
+      "notice_time": "23-07-2025 16:54"
+    },
+    {
+      "id": "256",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Uber",
+      "notice_time": "23-07-2025 16:16"
+    },
+    {
+      "id": "255",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "ITC Limited",
+      "notice_time": "23-07-2025 15:27"
+    },
+    {
+      "id": "254",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "NVIDIA",
+      "notice_time": "23-07-2025 15:05"
+    },
+    {
+      "id": "253",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "SCIFORN",
+      "notice_time": "23-07-2025 15:00"
+    },
+    {
+      "id": "252",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "VISA",
+      "notice_time": "23-07-2025 14:56"
+    },
+    {
+      "id": "251",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "EMERGENCY CONTACT",
+      "notice_time": "23-07-2025 14:23"
+    },
+    {
+      "id": "250",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "CDC Internship schedule for 23rd July",
+      "notice_time": "23-07-2025 14:07"
+    },
+    {
+      "id": "249",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "ACCENTURE",
+      "notice_time": "23-07-2025 13:39"
+    },
+    {
+      "id": "248",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Accenture",
+      "notice_time": "22-07-2025 20:28"
+    },
+    {
+      "id": "247",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "BLACKROCK",
+      "notice_time": "22-07-2025 20:08"
+    },
+    {
+      "id": "246",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Goldman Sachs",
+      "notice_time": "22-07-2025 20:06"
+    },
+    {
+      "id": "244",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "BLACKROCK",
+      "notice_time": "22-07-2025 19:18"
+    },
+    {
+      "id": "243",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Neo Wealth & Asset Management",
+      "notice_time": "22-07-2025 17:04"
+    },
+    {
+      "id": "242",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "MILLENNIUM",
+      "notice_time": "22-07-2025 17:02"
+    },
+    {
+      "id": "241",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "SAMSUNG SOUTH KOREA",
+      "notice_time": "22-07-2025 16:59"
+    },
+    {
+      "id": "240",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "BLACKROCK",
+      "notice_time": "22-07-2025 15:58"
+    },
+    {
+      "id": "239",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "AMAZON",
+      "notice_time": "22-07-2025 15:57"
+    },
+    {
+      "id": "238",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "RIPPLING",
+      "notice_time": "22-07-2025 14:08"
+    },
+    {
+      "id": "236",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Amazon",
+      "notice_time": "22-07-2025 11:54"
+    },
+    {
+      "id": "235",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Quantbox Research",
+      "notice_time": "22-07-2025 11:50"
+    },
+    {
+      "id": "234",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "QUALCOMM",
+      "notice_time": "22-07-2025 10:24"
+    },
+    {
+      "id": "233",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "CDC Internship schedule for 22nd July",
+      "notice_time": "22-07-2025 01:08"
+    },
+    {
+      "id": "232",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "SAMSUNG KOREA",
+      "notice_time": "21-07-2025 21:29"
+    },
+    {
+      "id": "231",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "MILLENNIUM",
+      "notice_time": "21-07-2025 21:16"
+    },
+    {
+      "id": "230",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "AMERICAN EXPRESS",
+      "notice_time": "21-07-2025 21:13"
+    },
+    {
+      "id": "229",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Amazon",
+      "notice_time": "21-07-2025 20:51"
+    },
+    {
+      "id": "228",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "MILLENNIUM",
+      "notice_time": "21-07-2025 18:00"
+    },
+    {
+      "id": "227",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "BLACKROCK",
+      "notice_time": "21-07-2025 16:27"
+    },
+    {
+      "id": "226",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "BLACKROCK",
+      "notice_time": "21-07-2025 16:26"
+    },
+    {
+      "id": "225",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Google",
+      "notice_time": "21-07-2025 16:25"
+    },
+    {
+      "id": "224",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "NVIDIA",
+      "notice_time": "21-07-2025 16:19"
+    },
+    {
+      "id": "223",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "GOOGLE",
+      "notice_time": "21-07-2025 13:34"
+    },
+    {
+      "id": "222",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "AMAZON",
+      "notice_time": "21-07-2025 13:09"
+    },
+    {
+      "id": "221",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Piramal Pharma",
+      "notice_time": "21-07-2025 12:57"
+    },
+    {
+      "id": "220",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "BAIN & CO.",
+      "notice_time": "21-07-2025 11:55"
+    },
+    {
+      "id": "219",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "NOMURA",
+      "notice_time": "21-07-2025 11:52"
+    },
+    {
+      "id": "218",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "NOMURA",
+      "notice_time": "21-07-2025 11:50"
+    },
+    {
+      "id": "217",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "NOMURA",
+      "notice_time": "21-07-2025 11:46"
+    },
+    {
+      "id": "216",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Boston Consulting Group (BCG)",
+      "notice_time": "21-07-2025 10:37"
+    },
+    {
+      "id": "215",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "AMAZON",
+      "notice_time": "21-07-2025 10:16"
+    },
+    {
+      "id": "214",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "BLACKROCK",
+      "notice_time": "21-07-2025 10:14"
+    },
+    {
+      "id": "213",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "MILLENNIUM",
+      "notice_time": "21-07-2025 10:00"
+    },
+    {
+      "id": "212",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "CDC Internship Test schedule for 21st July",
+      "notice_time": "21-07-2025 09:59"
+    },
+    {
+      "id": "211",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Quantbox Research",
+      "notice_time": "20-07-2025 17:02"
+    },
+    {
+      "id": "210",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Natwest",
+      "notice_time": "20-07-2025 11:28"
+    },
+    {
+      "id": "209",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "SAMSARA",
+      "notice_time": "20-07-2025 11:22"
+    },
+    {
+      "id": "208",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Pkeday Advisors LLP",
+      "notice_time": "20-07-2025 11:20"
+    },
+    {
+      "id": "207",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "WINZO",
+      "notice_time": "20-07-2025 11:19"
+    },
+    {
+      "id": "206",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Adobe",
+      "notice_time": "19-07-2025 21:56"
+    },
+    {
+      "id": "205",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "N K Securities.",
+      "notice_time": "19-07-2025 21:05"
+    },
+    {
+      "id": "204",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "N K Securities.",
+      "notice_time": "19-07-2025 20:07"
+    },
+    {
+      "id": "203",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Adobe",
+      "notice_time": "19-07-2025 20:04"
+    },
+    {
+      "id": "202",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "ACCENTURE (MC Delivery Associate)",
+      "notice_time": "19-07-2025 16:16"
+    },
+    {
+      "id": "201",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "American Express",
+      "notice_time": "19-07-2025 16:13"
+    },
+    {
+      "id": "200",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "AWL",
+      "notice_time": "19-07-2025 15:08"
+    },
+    {
+      "id": "199",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "OPTIVER",
+      "notice_time": "19-07-2025 14:50"
+    },
+    {
+      "id": "198",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Multiple Companies",
+      "notice_time": "19-07-2025 14:49"
+    },
+    {
+      "id": "197",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "ACCENTURE (MC Delivery Associate)",
+      "notice_time": "19-07-2025 14:48"
+    },
+    {
+      "id": "196",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Alphagrep",
+      "notice_time": "19-07-2025 14:46"
+    },
+    {
+      "id": "195",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Google (software)",
+      "notice_time": "19-07-2025 12:49"
+    },
+    {
+      "id": "194",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "CDC Internship schedule for 20th July, 2025",
+      "notice_time": "18-07-2025 20:05"
+    },
+    {
+      "id": "193",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "CDC Internship schedule for 19th July, 2025",
+      "notice_time": "18-07-2025 20:04"
+    },
+    {
+      "id": "192",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "WELLS FARGO",
+      "notice_time": "18-07-2025 20:02"
+    },
+    {
+      "id": "191",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Nomura",
+      "notice_time": "18-07-2025 20:01"
+    },
+    {
+      "id": "190",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Hindustan Unilever Limited",
+      "notice_time": "18-07-2025 18:43"
+    },
+    {
+      "id": "189",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "WELLS FARGO",
+      "notice_time": "18-07-2025 17:49"
+    },
+    {
+      "id": "188",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "DTDC",
+      "notice_time": "18-07-2025 16:54"
+    },
+    {
+      "id": "187",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Google (Silicon Engineering/Hardware)",
+      "notice_time": "18-07-2025 16:35"
+    },
+    {
+      "id": "186",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Rippling",
+      "notice_time": "18-07-2025 16:06"
+    },
+    {
+      "id": "185",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "MORGAN STANLEY",
+      "notice_time": "18-07-2025 15:44"
+    },
+    {
+      "id": "184",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Sprinklr",
+      "notice_time": "18-07-2025 15:30"
+    },
+    {
+      "id": "183",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ALPHAGREP",
+      "notice_time": "18-07-2025 15:05"
+    },
+    {
+      "id": "182",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Graviton",
+      "notice_time": "18-07-2025 13:26"
+    },
+    {
+      "id": "181",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Graviton",
+      "notice_time": "18-07-2025 13:25"
+    },
+    {
+      "id": "180",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Oracle",
+      "notice_time": "18-07-2025 10:48"
+    },
+    {
+      "id": "179",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "HINDUSTAN UNILEVER LIMITED",
+      "notice_time": "18-07-2025 09:52"
+    },
+    {
+      "id": "178",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Neo Wealth and Asset Management",
+      "notice_time": "17-07-2025 22:53"
+    },
+    {
+      "id": "177",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Neo Wealth and Asset Management",
+      "notice_time": "17-07-2025 20:50"
+    },
+    {
+      "id": "176",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "Neo Wealth and Asset Management",
+      "notice_time": "17-07-2025 20:49"
+    },
+    {
+      "id": "175",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "CDC Internship Test schedule for 18th July",
+      "notice_time": "17-07-2025 20:47"
+    },
+    {
+      "id": "174",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "QUADEYE",
+      "notice_time": "17-07-2025 18:43"
+    },
+    {
+      "id": "173",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "PPT of various companies",
+      "notice_time": "17-07-2025 18:36"
+    },
+    {
+      "id": "172",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Corridor Platforms",
+      "notice_time": "17-07-2025 18:35"
+    },
+    {
+      "id": "170",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "NK Securities",
+      "notice_time": "17-07-2025 17:57"
+    },
+    {
+      "id": "169",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Neo Wealth and Asset Management",
+      "notice_time": "17-07-2025 17:47"
+    },
+    {
+      "id": "168",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "TVS Motor Company",
+      "notice_time": "17-07-2025 17:32"
+    },
+    {
+      "id": "167",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "QUADEYE",
+      "notice_time": "17-07-2025 17:21"
+    },
+    {
+      "id": "166",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "QUADEYE",
+      "notice_time": "17-07-2025 17:19"
+    },
+    {
+      "id": "165",
+      "type": "PLACEMENT",
+      "category": "PPO",
+      "company": "GENERAL MILLS",
+      "notice_time": "17-07-2025 17:09"
+    },
+    {
+      "id": "164",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "HINDUSTAN UNILEVER LIMITED",
+      "notice_time": "17-07-2025 16:55"
+    },
+    {
+      "id": "163",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Qualcomm",
+      "notice_time": "17-07-2025 16:52"
+    },
+    {
+      "id": "161",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Jane Street",
+      "notice_time": "17-07-2025 15:50"
+    },
+    {
+      "id": "160",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "TEXAS INSTRUMENTS",
+      "notice_time": "17-07-2025 15:48"
+    },
+    {
+      "id": "159",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Stripe",
+      "notice_time": "17-07-2025 13:00"
+    },
+    {
+      "id": "158",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Neo Wealth and Asset Management",
+      "notice_time": "17-07-2025 12:51"
+    },
+    {
+      "id": "156",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "RIPPLING",
+      "notice_time": "17-07-2025 12:26"
+    },
+    {
+      "id": "155",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "PPT of various companies",
+      "notice_time": "17-07-2025 12:24"
+    },
+    {
+      "id": "154",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "INTUIT",
+      "notice_time": "17-07-2025 11:38"
+    },
+    {
+      "id": "153",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "HINDUSTAN UNILEVER LIMITED",
+      "notice_time": "17-07-2025 10:29"
+    },
+    {
+      "id": "152",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "APT PORTFOLIO",
+      "notice_time": "17-07-2025 10:27"
+    },
+    {
+      "id": "151",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "NATWEST",
+      "notice_time": "17-07-2025 10:26"
+    },
+    {
+      "id": "150",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ORACLE",
+      "notice_time": "17-07-2025 10:24"
+    },
+    {
+      "id": "149",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "ATLASSIAN",
+      "notice_time": "17-07-2025 10:17"
+    },
+    {
+      "id": "148",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "ITC LIMITED",
+      "notice_time": "17-07-2025 10:16"
+    },
+    {
+      "id": "147",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Infonetica",
+      "notice_time": "17-07-2025 10:14"
+    },
+    {
+      "id": "146",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Optiver",
+      "notice_time": "16-07-2025 20:54"
+    },
+    {
+      "id": "145",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "ITC Limited",
+      "notice_time": "16-07-2025 20:52"
+    },
+    {
+      "id": "144",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "American Express",
+      "notice_time": "16-07-2025 20:51"
+    },
+    {
+      "id": "143",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "NATWEST",
+      "notice_time": "16-07-2025 20:49"
+    },
+    {
+      "id": "142",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Qualcomm",
+      "notice_time": "16-07-2025 20:47"
+    },
+    {
+      "id": "141",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Sprinklr",
+      "notice_time": "16-07-2025 20:39"
+    },
+    {
+      "id": "140",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "GOOGLE (Hardware)",
+      "notice_time": "16-07-2025 18:13"
+    },
+    {
+      "id": "139",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "AMERICAN EXPRESS",
+      "notice_time": "16-07-2025 18:07"
+    },
+    {
+      "id": "138",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "ADOBE",
+      "notice_time": "16-07-2025 18:05"
+    },
+    {
+      "id": "137",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Infonetica",
+      "notice_time": "16-07-2025 16:44"
+    },
+    {
+      "id": "136",
+      "type": "INTERNSHIP",
+      "category": "Reminder",
+      "company": "EBULLIENT SECURITIES ( TRADEWALK BROKING )",
+      "notice_time": "16-07-2025 12:45"
+    },
+    {
+      "id": "135",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Flipkart",
+      "notice_time": "16-07-2025 11:10"
+    },
+    {
+      "id": "134",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Infonetica",
+      "notice_time": "16-07-2025 10:46"
+    },
+    {
+      "id": "133",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "GOOGLE (Hardware)",
+      "notice_time": "16-07-2025 10:26"
+    },
+    {
+      "id": "132",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ATLASSIAN",
+      "notice_time": "16-07-2025 10:15"
+    },
+    {
+      "id": "131",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ADOBE",
+      "notice_time": "15-07-2025 18:00"
+    },
+    {
+      "id": "130",
+      "type": "INTERNSHIP",
+      "category": "Shortlist",
+      "company": "PKEDAY ADVISORS LLP.",
+      "notice_time": "15-07-2025 17:51"
+    },
+    {
+      "id": "129",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "AMERICAN EXPRESS",
+      "notice_time": "15-07-2025 17:44"
+    },
+    {
+      "id": "128",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "AMERICAN EXPRESS",
+      "notice_time": "15-07-2025 17:41"
+    },
+    {
+      "id": "126",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "GOOGLE (Hardware)",
+      "notice_time": "15-07-2025 17:27"
+    },
+    {
+      "id": "125",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Goldman Sachs",
+      "notice_time": "15-07-2025 17:03"
+    },
+    {
+      "id": "124",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Wells Fargo",
+      "notice_time": "15-07-2025 16:59"
+    },
+    {
+      "id": "123",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Corridor Platforms",
+      "notice_time": "15-07-2025 15:22"
+    },
+    {
+      "id": "122",
+      "type": "INTERNSHIP",
+      "category": "Additional requirement",
+      "company": "Google",
+      "notice_time": "15-07-2025 15:10"
+    },
+    {
+      "id": "121",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Optiver",
+      "notice_time": "15-07-2025 15:09"
+    },
+    {
+      "id": "120",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Ebullient Securities ( Tradewalk Broking )",
+      "notice_time": "15-07-2025 15:06"
+    },
+    {
+      "id": "119",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ITC Limited",
+      "notice_time": "15-07-2025 15:02"
+    },
+    {
+      "id": "118",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "D. E. Shaw India Private Limited",
+      "notice_time": "15-07-2025 13:01"
+    },
+    {
+      "id": "117",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Trexquant",
+      "notice_time": "15-07-2025 12:05"
+    },
+    {
+      "id": "116",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "WELLS FARGO",
+      "notice_time": "15-07-2025 12:01"
+    },
+    {
+      "id": "115",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "PPT of various comapnies",
+      "notice_time": "14-07-2025 19:17"
+    },
+    {
+      "id": "114",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CV Building for Internship 2025-26",
+      "notice_time": "14-07-2025 19:14"
+    },
+    {
+      "id": "113",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "ACCENTURE",
+      "notice_time": "14-07-2025 19:09"
+    },
+    {
+      "id": "112",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "JPMorganChase",
+      "notice_time": "14-07-2025 19:07"
+    },
+    {
+      "id": "111",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "JPMorganChase",
+      "notice_time": "14-07-2025 19:06"
+    },
+    {
+      "id": "110",
+      "type": "INTERNSHIP",
+      "category": "Additional requirement",
+      "company": "WELLS FARGO",
+      "notice_time": "14-07-2025 19:04"
+    },
+    {
+      "id": "109",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "WELLS FARGO",
+      "notice_time": "14-07-2025 19:02"
+    },
+    {
+      "id": "107",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Databricks",
+      "notice_time": "14-07-2025 18:39"
+    },
+    {
+      "id": "106",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "OPTIVER",
+      "notice_time": "14-07-2025 18:28"
+    },
+    {
+      "id": "105",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Samsara",
+      "notice_time": "14-07-2025 18:26"
+    },
+    {
+      "id": "104",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Glean Search Technologies India Pvt. Ltd",
+      "notice_time": "14-07-2025 18:00"
+    },
+    {
+      "id": "103",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "NK Securities",
+      "notice_time": "14-07-2025 16:11"
+    },
+    {
+      "id": "102",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Graviton Research Capital",
+      "notice_time": "14-07-2025 15:57"
+    },
+    {
+      "id": "101",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Neo Wealth and Asset Management",
+      "notice_time": "14-07-2025 15:33"
+    },
+    {
+      "id": "100",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Google",
+      "notice_time": "14-07-2025 15:32"
+    },
+    {
+      "id": "99",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "CV Submission of Various Companies",
+      "notice_time": "14-07-2025 15:19"
+    },
+    {
+      "id": "98",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Uber",
+      "notice_time": "14-07-2025 13:25"
+    },
+    {
+      "id": "96",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "PLIVO",
+      "notice_time": "14-07-2025 12:12"
+    },
+    {
+      "id": "95",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "MORGAN STANLEY",
+      "notice_time": "14-07-2025 12:09"
+    },
+    {
+      "id": "94",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Graviton Research Capital",
+      "notice_time": "14-07-2025 10:21"
+    },
+    {
+      "id": "92",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "HUL",
+      "notice_time": "14-07-2025 10:18"
+    },
+    {
+      "id": "91",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Samsung Korea",
+      "notice_time": "14-07-2025 10:17"
+    },
+    {
+      "id": "90",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "JPMorgan Chase",
+      "notice_time": "14-07-2025 10:15"
+    },
+    {
+      "id": "89",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Bajaj Auto",
+      "notice_time": "14-07-2025 10:13"
+    },
+    {
+      "id": "88",
+      "type": "INTERNSHIP",
+      "category": "Additional requirement",
+      "company": "WELLS FARGO",
+      "notice_time": "14-07-2025 10:09"
+    },
+    {
+      "id": "87",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "WELLS FARGO",
+      "notice_time": "14-07-2025 10:08"
+    },
+    {
+      "id": "86",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CV Building for Internship 2025-26",
+      "notice_time": "13-07-2025 14:41"
+    },
+    {
+      "id": "85",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "EBULLIENT SECURITIES ( TRADEWALK BROKING )",
+      "notice_time": "13-07-2025 09:18"
+    },
+    {
+      "id": "84",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "QUADEYE",
+      "notice_time": "13-07-2025 09:17"
+    },
+    {
+      "id": "83",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "D. E. Shaw India Private Limited",
+      "notice_time": "13-07-2025 09:14"
+    },
+    {
+      "id": "82",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Databricks",
+      "notice_time": "13-07-2025 09:12"
+    },
+    {
+      "id": "81",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "AWL, Inc.",
+      "notice_time": "13-07-2025 09:10"
+    },
+    {
+      "id": "80",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "AWL, Inc.",
+      "notice_time": "13-07-2025 09:08"
+    },
+    {
+      "id": "79",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Neo Wealth and Asset Management",
+      "notice_time": "13-07-2025 09:06"
+    },
+    {
+      "id": "78",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Samsung Korea",
+      "notice_time": "13-07-2025 09:04"
+    },
+    {
+      "id": "77",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "UIPATH",
+      "notice_time": "13-07-2025 09:01"
+    },
+    {
+      "id": "76",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "APT PORTFOLIO",
+      "notice_time": "12-07-2025 15:26"
+    },
+    {
+      "id": "75",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Databricks",
+      "notice_time": "12-07-2025 15:23"
+    },
+    {
+      "id": "74",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "ACCENTURE",
+      "notice_time": "11-07-2025 19:40"
+    },
+    {
+      "id": "73",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "JPMorgan Chase",
+      "notice_time": "11-07-2025 19:37"
+    },
+    {
+      "id": "72",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Morgan Stanley",
+      "notice_time": "11-07-2025 19:35"
+    },
+    {
+      "id": "71",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Goldman Sachs",
+      "notice_time": "11-07-2025 19:35"
+    },
+    {
+      "id": "70",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "AWL, Inc.",
+      "notice_time": "11-07-2025 19:24"
+    },
+    {
+      "id": "69",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "UIPATH",
+      "notice_time": "11-07-2025 17:09"
+    },
+    {
+      "id": "68",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "MORGAN STANLEY",
+      "notice_time": "11-07-2025 17:05"
+    },
+    {
+      "id": "67",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "GOLDMAN SACHS",
+      "notice_time": "11-07-2025 16:53"
+    },
+    {
+      "id": "66",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Databricks",
+      "notice_time": "11-07-2025 16:50"
+    },
+    {
+      "id": "65",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Databricks",
+      "notice_time": "11-07-2025 16:49"
+    },
+    {
+      "id": "64",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Quadeye",
+      "notice_time": "11-07-2025 16:34"
+    },
+    {
+      "id": "63",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Samsara",
+      "notice_time": "11-07-2025 16:33"
+    },
+    {
+      "id": "62",
+      "type": "INTERNSHIP",
+      "category": "Additional requirement",
+      "company": "Pkeday Advisors LLP",
+      "notice_time": "11-07-2025 15:43"
+    },
+    {
+      "id": "61",
+      "type": "INTERNSHIP",
+      "category": "Revised",
+      "company": "Google",
+      "notice_time": "11-07-2025 11:20"
+    },
+    {
+      "id": "60",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Glean Search Technologies India Pvt. Ltd",
+      "notice_time": "11-07-2025 10:50"
+    },
+    {
+      "id": "59",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "D. E. Shaw India Private Limited",
+      "notice_time": "11-07-2025 10:47"
+    },
+    {
+      "id": "58",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "EBULLIENT SECURITIES ( TRADEWALK BROKING )",
+      "notice_time": "11-07-2025 10:45"
+    },
+    {
+      "id": "57",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "NOMURA",
+      "notice_time": "11-07-2025 10:31"
+    },
+    {
+      "id": "56",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "JPMorgan Chase",
+      "notice_time": "11-07-2025 10:29"
+    },
+    {
+      "id": "54",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Neo Wealth and Asset Management",
+      "notice_time": "10-07-2025 18:08"
+    },
+    {
+      "id": "53",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "AWL, Inc.",
+      "notice_time": "10-07-2025 17:57"
+    },
+    {
+      "id": "52",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "GOOGLE",
+      "notice_time": "10-07-2025 17:44"
+    },
+    {
+      "id": "51",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "APT PORTFOLIO",
+      "notice_time": "10-07-2025 17:08"
+    },
+    {
+      "id": "50",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Dynamic Technology Labs (DTL)",
+      "notice_time": "10-07-2025 17:05"
+    },
+    {
+      "id": "49",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Rubrik India Pvt Ltd",
+      "notice_time": "10-07-2025 16:57"
+    },
+    {
+      "id": "48",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "QUADEYE",
+      "notice_time": "10-07-2025 16:46"
+    },
+    {
+      "id": "47",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "AUXIA",
+      "notice_time": "10-07-2025 16:28"
+    },
+    {
+      "id": "46",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "JPMorgan Chase",
+      "notice_time": "10-07-2025 11:55"
+    },
+    {
+      "id": "45",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Quantbox Research",
+      "notice_time": "10-07-2025 11:12"
+    },
+    {
+      "id": "44",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "MICROSOFT",
+      "notice_time": "10-07-2025 11:11"
+    },
+    {
+      "id": "43",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Boston Consulting Group India",
+      "notice_time": "10-07-2025 11:09"
+    },
+    {
+      "id": "42",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Nomura",
+      "notice_time": "10-07-2025 09:33"
+    },
+    {
+      "id": "41",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "PPT of Various Companies",
+      "notice_time": "09-07-2025 22:18"
+    },
+    {
+      "id": "40",
+      "type": "INTERNSHIP",
+      "category": "Schedule",
+      "company": "Test of Various Companies",
+      "notice_time": "09-07-2025 22:14"
+    },
+    {
+      "id": "39",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Stripe",
+      "notice_time": "09-07-2025 16:08"
+    },
+    {
+      "id": "38",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Uber",
+      "notice_time": "09-07-2025 16:06"
+    },
+    {
+      "id": "37",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Preference Form_Internship & Fellowship Programme: 2025-26",
+      "notice_time": "09-07-2025 16:05"
+    },
+    {
+      "id": "36",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "JPMorgan Chase",
+      "notice_time": "09-07-2025 15:43"
+    },
+    {
+      "id": "35",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "KLA",
+      "notice_time": "09-07-2025 14:19"
+    },
+    {
+      "id": "34",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Microsoft",
+      "notice_time": "09-07-2025 14:17"
+    },
+    {
+      "id": "33",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Rubrik",
+      "notice_time": "09-07-2025 14:14"
+    },
+    {
+      "id": "32",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Stripe",
+      "notice_time": "09-07-2025 12:56"
+    },
+    {
+      "id": "31",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Pkeday Advisors LLP",
+      "notice_time": "09-07-2025 11:46"
+    },
+    {
+      "id": "30",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Quadeye",
+      "notice_time": "09-07-2025 11:40"
+    },
+    {
+      "id": "29",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Goldman Sachs",
+      "notice_time": "08-07-2025 16:33"
+    },
+    {
+      "id": "28",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Stripe",
+      "notice_time": "08-07-2025 15:53"
+    },
+    {
+      "id": "26",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "EBULLIENT SECURITIES ( TRADEWALK BROKING )",
+      "notice_time": "08-07-2025 15:42"
+    },
+    {
+      "id": "25",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "Boston Consulting Group India",
+      "notice_time": "08-07-2025 15:40"
+    },
+    {
+      "id": "24",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Stripe",
+      "notice_time": "08-07-2025 15:38"
+    },
+    {
+      "id": "23",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Quantbox Research",
+      "notice_time": "08-07-2025 15:36"
+    },
+    {
+      "id": "22",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "KLA",
+      "notice_time": "08-07-2025 15:31"
+    },
+    {
+      "id": "21",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Glean Search Technologies India Pvt. Ltd",
+      "notice_time": "08-07-2025 15:26"
+    },
+    {
+      "id": "20",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Boston Consulting Group India",
+      "notice_time": "07-07-2025 19:18"
+    },
+    {
+      "id": "18",
+      "type": "INTERNSHIP",
+      "category": "Date extension",
+      "company": "L.E.K. Consulting",
+      "notice_time": "07-07-2025 18:35"
+    },
+    {
+      "id": "17",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "NOMURA",
+      "notice_time": "07-07-2025 16:55"
+    },
+    {
+      "id": "16",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Rubrik",
+      "notice_time": "07-07-2025 16:54"
+    },
+    {
+      "id": "15",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CV Building for Internship 2025-26",
+      "notice_time": "07-07-2025 13:57"
+    },
+    {
+      "id": "14",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "Bain and Company",
+      "notice_time": "06-07-2025 12:03"
+    },
+    {
+      "id": "13",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "L.E.K. Consulting",
+      "notice_time": "06-07-2025 11:58"
+    },
+    {
+      "id": "12",
+      "type": "INTERNSHIP",
+      "category": "CV Submission",
+      "company": "CV submission of various companies",
+      "notice_time": "06-07-2025 00:25"
+    },
+    {
+      "id": "11",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CV Building for Internship 2025-26",
+      "notice_time": "04-07-2025 16:39"
+    },
+    {
+      "id": "10",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CV Building for Internship 2025-26",
+      "notice_time": "03-07-2025 11:31"
+    },
+    {
+      "id": "9",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Regarding the Photo in the CV of the Candidate",
+      "notice_time": "03-07-2025 11:27"
+    },
+    {
+      "id": "8",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Nomura",
+      "notice_time": "02-07-2025 16:56"
+    },
+    {
+      "id": "7",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CV Building for Internship 2025-26",
+      "notice_time": "01-07-2025 10:48"
+    },
+    {
+      "id": "6",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "Wells Fargo",
+      "notice_time": "30-06-2025 11:48"
+    },
+    {
+      "id": "5",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CV Building for Internship 2025-26",
+      "notice_time": "26-06-2025 18:49"
+    },
+    {
+      "id": "4",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CV Building for Internship 2025-26",
+      "notice_time": "26-06-2025 10:56"
+    },
+    {
+      "id": "3",
+      "type": "INTERNSHIP",
+      "category": "PPT/Workshop/Seminars etc",
+      "company": "CV Building Workshop",
+      "notice_time": "22-06-2025 08:59"
+    },
+    {
+      "id": "2",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "Travelling window for potentially eligible students for Internship 2025-26",
+      "notice_time": "19-06-2025 17:07"
+    },
+    {
+      "id": "1",
+      "type": "INTERNSHIP",
+      "category": "Urgent",
+      "company": "CV Building for Internship 2025-26",
+      "notice_time": "19-06-2025 17:03"
+    }
+  ],
+  "total_notices": 916
+}
