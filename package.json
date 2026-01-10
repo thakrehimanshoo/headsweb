@@ -7,15 +7,18 @@
     "build": "next build",
     "postbuild": "mkdir -p .next/standalone/public && cp -R public/* .next/standalone/public/ 2>/dev/null || true && mkdir -p .next/standalone/.next && cp -R .next/static .next/standalone/.next/",
     "start": "next start",
-    "start:custom":"NODE_ENV=production node server.js",
+    "start:custom": "NODE_ENV=production node server.js",
     "lint": "eslint"
   },
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "lucide-react": "^0.545.0",
     "next": "15.5.4",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "web-push": "^3.6.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
