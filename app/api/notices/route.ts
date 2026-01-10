@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
 import path from "path";
 import { promises as fs } from "fs";
-
-// NO MORE IMPORT FROM bus.ts - removed SSE broadcasting
+import webpush from 'web-push';
 
 // HeadsUp Notice Type (NO notice_text, NO notice_by)
 type Notice = {
@@ -19,8 +18,152 @@ type Payload = {
   notices: Notice[];
 };
 
+interface PushSubscription {
+  endpoint: string;
+  expirationTime?: number | null;
+  keys: {
+    p256dh: string;
+    auth: string;
+  };
+  subscribedAt?: string;
+}
+
 const DATA_PATH = path.join(process.cwd(), "data", "notices.json");
+const SUBSCRIPTIONS_FILE = path.join(process.cwd(), 'subscriptions.json');
 const API_KEY = process.env.HEADSUP_PUSH_KEY || "";
+
+// VAPID configuration for push notifications
+const VAPID_PUBLIC_KEY = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
+const VAPID_PRIVATE_KEY = process.env.VAPID_PRIVATE_KEY;
+const VAPID_EMAIL = process.env.VAPID_EMAIL || 'mailto:admin@headsup.com';
+
+// Configure web-push
+if (VAPID_PUBLIC_KEY && VAPID_PRIVATE_KEY) {
+  webpush.setVapidDetails(
+    VAPID_EMAIL,
+    VAPID_PUBLIC_KEY,
+    VAPID_PRIVATE_KEY
+  );
+}
+
+// Helper: Load previous notices
+async function loadPreviousNotices(): Promise<Notice[]> {
+  try {
+    const buf = await fs.readFile(DATA_PATH);
+    let txt = buf.toString("utf8");
+
+    if (txt.charCodeAt(0) === 0xfeff) {
+      txt = txt.slice(1);
+    }
+    if (txt.includes("\u0000")) {
+      txt = buf.toString("utf16le");
+      if (txt.charCodeAt(0) === 0xfeff) txt = txt.slice(1);
+    }
+
+    const json = JSON.parse(txt);
+    return json.notices || [];
+  } catch (e) {
+    return [];
+  }
+}
+
+// Helper: Get new notices by comparing IDs
+function getNewNotices(currentNotices: Notice[], previousNotices: Notice[]): Notice[] {
+  const prevIds = new Set(previousNotices.map(n => n.id));
+  return currentNotices.filter(n => !prevIds.has(n.id));
+}
+
+// Helper: Load subscriptions
+function loadSubscriptions(): PushSubscription[] {
+  try {
+    const data = require('fs').readFileSync(SUBSCRIPTIONS_FILE, 'utf-8');
+    return JSON.parse(data);
+  } catch (error) {
+    return [];
+  }
+}
+
+// Helper: Save subscriptions
+function saveSubscriptions(subscriptions: PushSubscription[]): void {
+  try {
+    require('fs').writeFileSync(SUBSCRIPTIONS_FILE, JSON.stringify(subscriptions, null, 2));
+  } catch (error) {
+    console.error('Error saving subscriptions:', error);
+  }
+}
+
+// Helper: Send push notification
+async function sendPushNotification(
+  subscription: PushSubscription,
+  payload: object
+): Promise<{ success: boolean; expired?: boolean }> {
+  try {
+    await webpush.sendNotification(subscription, JSON.stringify(payload));
+    return { success: true };
+  } catch (error: any) {
+    if (error.statusCode === 410 || error.statusCode === 404) {
+      return { success: false, expired: true };
+    }
+    return { success: false };
+  }
+}
+
+// Helper: Trigger push notifications for new notices
+async function triggerPushNotifications(newNotices: Notice[]): Promise<void> {
+  if (newNotices.length === 0) {
+    console.log('📭 No new notices - skipping push');
+    return;
+  }
+
+  console.log(`🔔 Triggering push for ${newNotices.length} new notice(s)`);
+
+  const subscriptions = loadSubscriptions();
+
+  if (subscriptions.length === 0) {
+    console.log('📭 No subscriptions found');
+    return;
+  }
+
+  console.log(`📱 Sending to ${subscriptions.length} subscription(s)`);
+
+  // Create notification payload
+  const count = newNotices.length;
+  const payload = {
+    title: `🎓 ${count} New CDC ${count === 1 ? 'Notice' : 'Notices'}!`,
+    body: newNotices.slice(0, 3).map(n =>
+      `${n.company} - ${n.category}`
+    ).join('\n'),
+    icon: '/icon-192x192.png',
+    badge: '/badge-96x96.png',
+    tag: 'cdc-notice',
+    requireInteraction: true,
+    data: {
+      url: '/placement',
+      notices: newNotices
+    }
+  };
+
+  // Send to all subscriptions
+  const results = await Promise.all(
+    subscriptions.map(sub => sendPushNotification(sub, payload))
+  );
+
+  // Remove expired subscriptions
+  const validSubscriptions = subscriptions.filter((sub, index) => {
+    if (results[index].expired) {
+      console.log('🗑️ Removing expired subscription');
+      return false;
+    }
+    return true;
+  });
+
+  if (validSubscriptions.length !== subscriptions.length) {
+    saveSubscriptions(validSubscriptions);
+  }
+
+  const successCount = results.filter(r => r.success).length;
+  console.log(`✅ Push sent to ${successCount}/${subscriptions.length} subscriptions`);
+}
 
 export async function GET() {
   try {
@@ -65,6 +208,8 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "invalid payload" }, { status: 400 });
     }
 
+    console.log(`\n📥 Received ${body.notices.length} notices from scraper`);
+
     // HeadsUp: Ensure notices don't contain notice_text or notice_by
     const cleanedNotices = body.notices.map((notice) => ({
       id: notice.id,
@@ -76,7 +221,38 @@ export async function POST(req: Request) {
       // notice_by: EXCLUDED
     }));
 
-    // normalize optional
+    // ============================================================================
+    // CHANGE DETECTION - Automatically detect new notices
+    // ============================================================================
+
+    // Load previous notices from storage
+    const previousNotices = await loadPreviousNotices();
+    console.log(`📊 Previous: ${previousNotices.length} | Current: ${cleanedNotices.length}`);
+
+    // Find NEW notices
+    const newNotices = getNewNotices(cleanedNotices, previousNotices);
+
+    if (newNotices.length > 0) {
+      console.log(`🆕 Found ${newNotices.length} new notice(s):`);
+      newNotices.slice(0, 3).forEach((n, i) => {
+        console.log(`   ${i + 1}. [${n.type}] ${n.company} - ${n.category}`);
+      });
+      if (newNotices.length > 3) {
+        console.log(`   ... and ${newNotices.length - 3} more`);
+      }
+
+      // Trigger push notifications asynchronously (don't wait for completion)
+      triggerPushNotifications(newNotices).catch(err => {
+        console.error('❌ Push notification error:', err);
+      });
+    } else {
+      console.log('📭 No new notices detected');
+    }
+
+    // ============================================================================
+    // SAVE ALL NOTICES (regardless of whether they're new)
+    // ============================================================================
+
     const normalized: Payload = {
       scraped_at: body.scraped_at ?? new Date().toISOString(),
       notices: cleanedNotices,
@@ -86,11 +262,17 @@ export async function POST(req: Request) {
     await fs.mkdir(path.dirname(DATA_PATH), { recursive: true });
     await fs.writeFile(DATA_PATH, JSON.stringify(normalized, null, 2), "utf8");
 
-    // REMOVED: broadcastUpdate() - no longer using SSE
-    // Clients will get updates via polling instead
+    console.log(`✅ Saved ${cleanedNotices.length} notices to storage`);
 
-    return NextResponse.json({ ok: true }, { status: 200 });
+    return NextResponse.json({
+      ok: true,
+      total_notices: cleanedNotices.length,
+      new_notices: newNotices.length,
+      pushed: newNotices.length > 0
+    }, { status: 200 });
+
   } catch (e: any) {
+    console.error('❌ Error in POST /api/notices:', e);
     return NextResponse.json(
       { error: String(e?.message || e) },
       { status: 500 }
