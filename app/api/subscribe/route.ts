@@ -2,10 +2,9 @@
 // Manages user subscriptions to push notifications
 
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { kv } from '@vercel/kv';
 
-const SUBSCRIPTIONS_FILE = path.join(process.cwd(), 'subscriptions.json');
+const KV_SUBSCRIPTIONS_KEY = 'push:subscriptions';
 
 interface PushSubscription {
   endpoint: string;
@@ -17,23 +16,24 @@ interface PushSubscription {
   subscribedAt?: string;
 }
 
-// Load subscriptions from file
-function loadSubscriptions(): PushSubscription[] {
+// Load subscriptions from KV
+async function loadSubscriptions(): Promise<PushSubscription[]> {
   try {
-    if (fs.existsSync(SUBSCRIPTIONS_FILE)) {
-      const data = fs.readFileSync(SUBSCRIPTIONS_FILE, 'utf-8');
-      return JSON.parse(data);
+    const data = await kv.get(KV_SUBSCRIPTIONS_KEY);
+    if (!data || !Array.isArray(data)) {
+      return [];
     }
+    return data as PushSubscription[];
   } catch (error) {
     console.error('Error loading subscriptions:', error);
+    return [];
   }
-  return [];
 }
 
-// Save subscriptions to file
-function saveSubscriptions(subscriptions: PushSubscription[]): void {
+// Save subscriptions to KV
+async function saveSubscriptions(subscriptions: PushSubscription[]): Promise<void> {
   try {
-    fs.writeFileSync(SUBSCRIPTIONS_FILE, JSON.stringify(subscriptions, null, 2));
+    await kv.set(KV_SUBSCRIPTIONS_KEY, subscriptions);
   } catch (error) {
     console.error('Error saving subscriptions:', error);
   }
@@ -52,7 +52,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Load existing subscriptions
-    const subscriptions = loadSubscriptions();
+    const subscriptions = await loadSubscriptions();
 
     // Check if already subscribed (by endpoint)
     const exists = subscriptions.some(sub => sub.endpoint === subscription.endpoint);
@@ -64,7 +64,7 @@ export async function POST(request: NextRequest) {
         subscribedAt: new Date().toISOString()
       });
 
-      saveSubscriptions(subscriptions);
+      await saveSubscriptions(subscriptions);
       console.log('✅ New subscription added:', subscription.endpoint);
     }
 
@@ -94,10 +94,10 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    const subscriptions = loadSubscriptions();
+    const subscriptions = await loadSubscriptions();
     const filtered = subscriptions.filter(sub => sub.endpoint !== endpoint);
 
-    saveSubscriptions(filtered);
+    await saveSubscriptions(filtered);
     console.log('🗑️ Subscription removed:', endpoint);
 
     return NextResponse.json({

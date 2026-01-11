@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-import path from "path";
-import { promises as fs } from "fs";
+import { kv } from '@vercel/kv';
 import webpush from 'web-push';
 
 // HeadsUp Notice Type (FULL notice data)
@@ -30,8 +29,9 @@ interface PushSubscription {
   subscribedAt?: string;
 }
 
-const DATA_PATH = path.join(process.cwd(), "data", "notices.json");
-const SUBSCRIPTIONS_FILE = path.join(process.cwd(), 'subscriptions.json');
+// Vercel KV keys for storage
+const KV_NOTICES_KEY = 'notices:data';
+const KV_SUBSCRIPTIONS_KEY = 'push:subscriptions';
 const API_KEY = process.env.HEADSUP_PUSH_KEY || "";
 
 // VAPID configuration for push notifications
@@ -48,23 +48,17 @@ if (VAPID_PUBLIC_KEY && VAPID_PRIVATE_KEY) {
   );
 }
 
-// Helper: Load previous notices
+// Helper: Load previous notices from KV
 async function loadPreviousNotices(): Promise<Notice[]> {
   try {
-    const buf = await fs.readFile(DATA_PATH);
-    let txt = buf.toString("utf8");
-
-    if (txt.charCodeAt(0) === 0xfeff) {
-      txt = txt.slice(1);
+    const data = await kv.get(KV_NOTICES_KEY);
+    if (!data || typeof data !== 'object') {
+      return [];
     }
-    if (txt.includes("\u0000")) {
-      txt = buf.toString("utf16le");
-      if (txt.charCodeAt(0) === 0xfeff) txt = txt.slice(1);
-    }
-
-    const json = JSON.parse(txt);
+    const json = data as Payload;
     return json.notices || [];
   } catch (e) {
+    console.error('Error loading previous notices:', e);
     return [];
   }
 }
@@ -75,20 +69,24 @@ function getNewNotices(currentNotices: Notice[], previousNotices: Notice[]): Not
   return currentNotices.filter(n => !prevIds.has(n.id));
 }
 
-// Helper: Load subscriptions
-function loadSubscriptions(): PushSubscription[] {
+// Helper: Load subscriptions from KV
+async function loadSubscriptions(): Promise<PushSubscription[]> {
   try {
-    const data = require('fs').readFileSync(SUBSCRIPTIONS_FILE, 'utf-8');
-    return JSON.parse(data);
+    const data = await kv.get(KV_SUBSCRIPTIONS_KEY);
+    if (!data || !Array.isArray(data)) {
+      return [];
+    }
+    return data as PushSubscription[];
   } catch (error) {
+    console.error('Error loading subscriptions:', error);
     return [];
   }
 }
 
-// Helper: Save subscriptions
-function saveSubscriptions(subscriptions: PushSubscription[]): void {
+// Helper: Save subscriptions to KV
+async function saveSubscriptions(subscriptions: PushSubscription[]): Promise<void> {
   try {
-    require('fs').writeFileSync(SUBSCRIPTIONS_FILE, JSON.stringify(subscriptions, null, 2));
+    await kv.set(KV_SUBSCRIPTIONS_KEY, subscriptions);
   } catch (error) {
     console.error('Error saving subscriptions:', error);
   }
@@ -132,7 +130,7 @@ async function triggerPushNotifications(newNotices: Notice[]): Promise<void> {
 
   console.log(`🔔 Triggering push for ${newNotices.length} new notice(s)`);
 
-  const subscriptions = loadSubscriptions();
+  const subscriptions = await loadSubscriptions();
 
   if (subscriptions.length === 0) {
     console.log('📭 No subscriptions found');
@@ -176,7 +174,7 @@ async function triggerPushNotifications(newNotices: Notice[]): Promise<void> {
   });
 
   if (validSubscriptions.length !== subscriptions.length) {
-    saveSubscriptions(validSubscriptions);
+    await saveSubscriptions(validSubscriptions);
   }
 
   const successCount = results.filter(r => r.success).length;
@@ -185,21 +183,20 @@ async function triggerPushNotifications(newNotices: Notice[]): Promise<void> {
 
 export async function GET() {
   try {
-    const buf = await fs.readFile(DATA_PATH); // read raw bytes
-    let txt = buf.toString("utf8");
+    const data = await kv.get(KV_NOTICES_KEY);
 
-    // If a BOM slipped in, remove it
-    if (txt.charCodeAt(0) === 0xfeff) {
-      txt = txt.slice(1);
-    }
-    // If there are many NULs, it was likely UTF-16LE; fallback decode:
-    if (txt.includes("\u0000")) {
-      txt = buf.toString("utf16le");
-      if (txt.charCodeAt(0) === 0xfeff) txt = txt.slice(1);
+    if (!data || typeof data !== 'object') {
+      return NextResponse.json(
+        {
+          scraped_at: null,
+          notices: [],
+          total_notices: 0,
+        },
+        { status: 200 }
+      );
     }
 
-    const json = JSON.parse(txt);
-    return NextResponse.json(json, { status: 200 });
+    return NextResponse.json(data, { status: 200 });
   } catch (e: any) {
     return NextResponse.json(
       {
@@ -269,10 +266,10 @@ export async function POST(req: Request) {
       total_notices: body.total_notices ?? allNotices.length,
     };
 
-    await fs.mkdir(path.dirname(DATA_PATH), { recursive: true });
-    await fs.writeFile(DATA_PATH, JSON.stringify(normalized, null, 2), "utf8");
+    // Save to Vercel KV
+    await kv.set(KV_NOTICES_KEY, normalized);
 
-    console.log(`✅ Saved ${allNotices.length} notices to storage`);
+    console.log(`✅ Saved ${allNotices.length} notices to KV storage`);
 
     return NextResponse.json({
       ok: true,
