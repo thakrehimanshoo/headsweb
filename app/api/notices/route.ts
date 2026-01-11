@@ -3,12 +3,14 @@ import path from "path";
 import { promises as fs } from "fs";
 import webpush from 'web-push';
 
-// HeadsUp Notice Type (NO notice_text, NO notice_by)
+// HeadsUp Notice Type (FULL notice data)
 type Notice = {
   id: string;
   type: string;
   category: string;
   company: string;
+  notice_text: string;
+  notice_by: string;
   notice_time: string; // e.g., "11-10-2025 13:07"
 };
 
@@ -98,12 +100,25 @@ async function sendPushNotification(
   payload: object
 ): Promise<{ success: boolean; expired?: boolean }> {
   try {
-    await webpush.sendNotification(subscription, JSON.stringify(payload));
+    console.log('📤 Sending push to:', subscription.endpoint.substring(0, 50) + '...');
+
+    const result = await webpush.sendNotification(subscription, JSON.stringify(payload));
+
+    console.log('✅ Push delivered! Status:', result.statusCode);
     return { success: true };
   } catch (error: any) {
+    console.error('❌ Push failed for subscription!');
+    console.error('Error:', {
+      message: error.message,
+      statusCode: error.statusCode,
+      endpoint: subscription.endpoint.substring(0, 50) + '...'
+    });
+
     if (error.statusCode === 410 || error.statusCode === 404) {
+      console.log('🗑️ Subscription expired or invalid');
       return { success: false, expired: true };
     }
+
     return { success: false };
   }
 }
@@ -210,16 +225,8 @@ export async function POST(req: Request) {
 
     console.log(`\n📥 Received ${body.notices.length} notices from scraper`);
 
-    // HeadsUp: Ensure notices don't contain notice_text or notice_by
-    const cleanedNotices = body.notices.map((notice) => ({
-      id: notice.id,
-      type: notice.type,
-      category: notice.category,
-      company: notice.company,
-      notice_time: notice.notice_time,
-      // notice_text: EXCLUDED
-      // notice_by: EXCLUDED
-    }));
+    // Store ALL notice data (including notice_text and notice_by)
+    const allNotices = body.notices;
 
     // ============================================================================
     // CHANGE DETECTION - Automatically detect new notices
@@ -227,10 +234,10 @@ export async function POST(req: Request) {
 
     // Load previous notices from storage
     const previousNotices = await loadPreviousNotices();
-    console.log(`📊 Previous: ${previousNotices.length} | Current: ${cleanedNotices.length}`);
+    console.log(`📊 Previous: ${previousNotices.length} | Current: ${allNotices.length}`);
 
     // Find NEW notices
-    const newNotices = getNewNotices(cleanedNotices, previousNotices);
+    const newNotices = getNewNotices(allNotices, previousNotices);
 
     if (newNotices.length > 0) {
       console.log(`🆕 Found ${newNotices.length} new notice(s):`);
@@ -250,23 +257,23 @@ export async function POST(req: Request) {
     }
 
     // ============================================================================
-    // SAVE ALL NOTICES (regardless of whether they're new)
+    // SAVE ALL NOTICES (with full data including notice_text)
     // ============================================================================
 
     const normalized: Payload = {
       scraped_at: body.scraped_at ?? new Date().toISOString(),
-      notices: cleanedNotices,
-      total_notices: body.total_notices ?? cleanedNotices.length,
+      notices: allNotices,
+      total_notices: body.total_notices ?? allNotices.length,
     };
 
     await fs.mkdir(path.dirname(DATA_PATH), { recursive: true });
     await fs.writeFile(DATA_PATH, JSON.stringify(normalized, null, 2), "utf8");
 
-    console.log(`✅ Saved ${cleanedNotices.length} notices to storage`);
+    console.log(`✅ Saved ${allNotices.length} notices to storage`);
 
     return NextResponse.json({
       ok: true,
-      total_notices: cleanedNotices.length,
+      total_notices: allNotices.length,
       new_notices: newNotices.length,
       pushed: newNotices.length > 0
     }, { status: 200 });
