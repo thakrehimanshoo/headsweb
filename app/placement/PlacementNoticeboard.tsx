@@ -449,7 +449,7 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { Bell, Building2, Calendar, Filter, X, Briefcase } from "lucide-react";
 import NotificationButton from "@/app/components/NotificationButton";
 
@@ -567,6 +567,7 @@ const NoticeCard: React.FC<NoticeCardProps> = ({ notice, isNew = false }) => {
 export default function HeadsUp() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const pathname = usePathname();
 
   const [data, setData] = useState<NoticesData>({
     scraped_at: null,
@@ -581,19 +582,22 @@ export default function HeadsUp() {
   const [newNoticeIds, setNewNoticeIds] = useState<Set<string>>(new Set());
   const noticesPerPage = 9;
 
-  // Redirect to / if accessed directly (not from notification)
+  // Redirect to / if /placement accessed directly (not from notification)
   useEffect(() => {
     const fromNotification = searchParams.get('from');
     const newIds = searchParams.get('new');
 
-    if (!fromNotification || fromNotification !== 'notification') {
-      // Not from notification, redirect to homepage
-      router.replace('/');
-      return;
+    // Only enforce redirect on /placement page, not on homepage
+    if (pathname === '/placement') {
+      if (!fromNotification || fromNotification !== 'notification') {
+        // Not from notification, redirect to homepage
+        router.replace('/');
+        return;
+      }
     }
 
-    // From notification - extract new notice IDs
-    if (newIds) {
+    // From notification - extract new notice IDs for highlighting
+    if (fromNotification === 'notification' && newIds) {
       const ids = newIds.split(',').filter(Boolean);
       setNewNoticeIds(new Set(ids));
       console.log('Highlighting new notices:', ids);
@@ -605,7 +609,7 @@ export default function HeadsUp() {
 
       return () => clearTimeout(timeout);
     }
-  }, [searchParams, router]);
+  }, [searchParams, router, pathname]);
 
   // ============ CHANGED: Replaced SSE with Polling ============
   useEffect(() => {
