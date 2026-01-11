@@ -1,4 +1,3 @@
-// app/components/NotificationButton.tsx
 'use client';
 
 import { useWebPush } from '@/app/hooks/useWebPush';
@@ -13,13 +12,7 @@ export default function NotificationButton() {
     unsubscribe
   } = useWebPush();
 
-  if (!isSupported) {
-    return (
-      <div className="text-sm text-gray-500">
-        Push notifications not supported
-      </div>
-    );
-  }
+  if (!isSupported) return null; // Hide if not supported to save space on mobile
 
   const handleClick = async () => {
     if (isSubscribed) {
@@ -34,30 +27,32 @@ export default function NotificationButton() {
       onClick={handleClick}
       disabled={isLoading}
       className={`
-        flex items-center gap-2 px-4 py-2 rounded-lg font-medium
-        transition-all duration-200
+        flex items-center justify-center gap-2 rounded-lg font-bold
+        transition-all duration-200 text-sm
+        /* Mobile: Circular/Square icon button | Desktop: Rectangular with text */
+        p-2.5 md:px-4 md:py-2 
         ${isSubscribed
-          ? 'bg-green-100 text-green-700 hover:bg-green-200 dark:bg-green-900/30 dark:text-green-400 dark:hover:bg-green-900/50'
-          : 'bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600'
+          ? 'bg-[#FFD644] text-[#0D0D0D] hover:scale-105 shadow-[0_0_15px_rgba(255,214,68,0.3)]'
+          : 'bg-[#1A1A1A] text-[#F4F4F4] border border-[#2A2A2A] hover:border-[#FFD644]'
         }
-        ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}
-        disabled:opacity-50 disabled:cursor-not-allowed
+        ${isLoading ? 'opacity-50 cursor-not-allowed' : 'active:scale-95'}
       `}
+      title={isSubscribed ? "Notifications On" : "Enable Notifications"}
     >
       {isLoading ? (
         <>
           <Loader2 className="w-5 h-5 animate-spin" />
-          <span>Processing...</span>
+          <span className="hidden md:inline">Processing...</span>
         </>
       ) : isSubscribed ? (
         <>
           <Bell className="w-5 h-5" />
-          <span>Notifications On</span>
+          <span className="hidden md:inline">Notifications On</span>
         </>
       ) : (
         <>
-          <BellOff className="w-5 h-5" />
-          <span>Enable Notifications</span>
+          <BellOff className="w-5 h-5 text-[#666666]" />
+          <span className="hidden md:inline">Enable Notifications</span>
         </>
       )}
     </button>
