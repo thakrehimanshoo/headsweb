@@ -2,11 +2,10 @@
 // Triggered by Python scraper when new notices arrive
 
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { kv } from '@vercel/kv';
 import webpush from 'web-push';
 
-const SUBSCRIPTIONS_FILE = path.join(process.cwd(), 'subscriptions.json');
+const KV_SUBSCRIPTIONS_KEY = 'push:subscriptions';
 
 // VAPID configuration
 const VAPID_PUBLIC_KEY = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
@@ -45,21 +44,22 @@ interface TriggerPushPayload {
   count: number;
 }
 
-function loadSubscriptions(): PushSubscription[] {
+async function loadSubscriptions(): Promise<PushSubscription[]> {
   try {
-    if (fs.existsSync(SUBSCRIPTIONS_FILE)) {
-      const data = fs.readFileSync(SUBSCRIPTIONS_FILE, 'utf-8');
-      return JSON.parse(data);
+    const data = await kv.get(KV_SUBSCRIPTIONS_KEY);
+    if (!data || !Array.isArray(data)) {
+      return [];
     }
+    return data as PushSubscription[];
   } catch (error) {
     console.error('Error loading subscriptions:', error);
+    return [];
   }
-  return [];
 }
 
-function saveSubscriptions(subscriptions: PushSubscription[]): void {
+async function saveSubscriptions(subscriptions: PushSubscription[]): Promise<void> {
   try {
-    fs.writeFileSync(SUBSCRIPTIONS_FILE, JSON.stringify(subscriptions, null, 2));
+    await kv.set(KV_SUBSCRIPTIONS_KEY, subscriptions);
   } catch (error) {
     console.error('Error saving subscriptions:', error);
   }
@@ -132,7 +132,7 @@ export async function POST(request: NextRequest) {
     console.log('📋 New notices:', JSON.stringify(new_notices, null, 2));
 
     // Load subscriptions
-    const subscriptions = loadSubscriptions();
+    const subscriptions = await loadSubscriptions();
     console.log(`📱 Found ${subscriptions.length} subscription(s)`);
 
     if (subscriptions.length === 0) {
@@ -186,7 +186,7 @@ export async function POST(request: NextRequest) {
     });
 
     if (validSubscriptions.length !== subscriptions.length) {
-      saveSubscriptions(validSubscriptions);
+      await saveSubscriptions(validSubscriptions);
     }
 
     const successCount = results.filter(r => r.success).length;
