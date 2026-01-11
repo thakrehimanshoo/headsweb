@@ -100,12 +100,25 @@ async function sendPushNotification(
   payload: object
 ): Promise<{ success: boolean; expired?: boolean }> {
   try {
-    await webpush.sendNotification(subscription, JSON.stringify(payload));
+    console.log('📤 Sending push to:', subscription.endpoint.substring(0, 50) + '...');
+
+    const result = await webpush.sendNotification(subscription, JSON.stringify(payload));
+
+    console.log('✅ Push delivered! Status:', result.statusCode);
     return { success: true };
   } catch (error: any) {
+    console.error('❌ Push failed for subscription!');
+    console.error('Error:', {
+      message: error.message,
+      statusCode: error.statusCode,
+      endpoint: subscription.endpoint.substring(0, 50) + '...'
+    });
+
     if (error.statusCode === 410 || error.statusCode === 404) {
+      console.log('🗑️ Subscription expired or invalid');
       return { success: false, expired: true };
     }
+
     return { success: false };
   }
 }
