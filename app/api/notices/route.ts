@@ -143,6 +143,7 @@ async function triggerPushNotifications(newNotices: Notice[]): Promise<void> {
 
   // Create notification payload
   const count = newNotices.length;
+  const timestamp = Date.now();
   const payload = {
     title: `🎓 ${count} New CDC ${count === 1 ? 'Notice' : 'Notices'}!`,
     body: newNotices.slice(0, 3).map(n =>
@@ -150,11 +151,13 @@ async function triggerPushNotifications(newNotices: Notice[]): Promise<void> {
     ).join('\n'),
     icon: '/icon-192x192.png',
     badge: '/badge-96x96.png',
-    tag: 'cdc-notice',
+    tag: `cdc-notice-${timestamp}`, // Unique tag per notification batch
     requireInteraction: true,
+    vibrate: [200, 100, 200], // Vibration pattern for mobile/supported devices
     data: {
       url: '/placement',
-      notices: newNotices
+      notices: newNotices,
+      timestamp
     }
   };
 
