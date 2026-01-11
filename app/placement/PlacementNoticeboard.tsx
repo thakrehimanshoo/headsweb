@@ -449,6 +449,7 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Bell, Building2, Calendar, Filter, X, Briefcase } from "lucide-react";
 import NotificationButton from "@/app/components/NotificationButton";
 
@@ -485,8 +486,8 @@ const CategoryBadge: React.FC<CategoryBadgeProps> = ({ category }) => {
   );
 };
 
-type NoticeCardProps = { notice: Notice };
-const NoticeCard: React.FC<NoticeCardProps> = ({ notice }) => {
+type NoticeCardProps = { notice: Notice; isNew?: boolean };
+const NoticeCard: React.FC<NoticeCardProps> = ({ notice, isNew = false }) => {
   const isUrgent = notice.category === "Urgent";
 
   // Format date in user-friendly way
@@ -523,11 +524,20 @@ const NoticeCard: React.FC<NoticeCardProps> = ({ notice }) => {
 
   return (
     <div className={`bg-[#0D0D0D] border rounded-lg p-4 transition-all duration-300 hover:border-[#FFD644] hover:shadow-[0_0_20px_rgba(255,214,68,0.15)] group ${
-      isUrgent ? "border-[#FFD644]" : "border-[#2A2A2A]"
+      isNew
+        ? "border-[#3B82F6] shadow-[0_0_25px_rgba(59,130,246,0.3)] animate-[pulse_2s_ease-in-out_3]"
+        : isUrgent
+        ? "border-[#FFD644]"
+        : "border-[#2A2A2A]"
     }`}>
       <div className="flex items-start justify-between gap-3 mb-3">
         <div className="flex items-center gap-2 flex-1 min-w-0">
-          <Building2 className={`w-5 h-5 flex-shrink-0 ${isUrgent ? "text-[#FFD644]" : "text-[#F4F4F4]"}`} />
+          {isNew && (
+            <div className="px-2 py-0.5 bg-[#3B82F6] text-[#FFFFFF] text-[10px] font-bold rounded uppercase tracking-wide flex-shrink-0">
+              NEW
+            </div>
+          )}
+          <Building2 className={`w-5 h-5 flex-shrink-0 ${isNew ? "text-[#3B82F6]" : isUrgent ? "text-[#FFD644]" : "text-[#F4F4F4]"}`} />
           <h3 className="font-bold text-base text-[#F4F4F4] break-words tracking-tight">
             {notice.company || 'General Notice'}
           </h3>
@@ -555,6 +565,9 @@ const NoticeCard: React.FC<NoticeCardProps> = ({ notice }) => {
 
 /* ---------------- Main Component ---------------- */
 export default function HeadsUp() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
   const [data, setData] = useState<NoticesData>({
     scraped_at: null,
     total_notices: 0,
@@ -565,7 +578,34 @@ export default function HeadsUp() {
   const [selectedType, setSelectedType] = useState<string>("All");
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [showFilters, setShowFilters] = useState<boolean>(false);
+  const [newNoticeIds, setNewNoticeIds] = useState<Set<string>>(new Set());
   const noticesPerPage = 9;
+
+  // Redirect to / if accessed directly (not from notification)
+  useEffect(() => {
+    const fromNotification = searchParams.get('from');
+    const newIds = searchParams.get('new');
+
+    if (!fromNotification || fromNotification !== 'notification') {
+      // Not from notification, redirect to homepage
+      router.replace('/');
+      return;
+    }
+
+    // From notification - extract new notice IDs
+    if (newIds) {
+      const ids = newIds.split(',').filter(Boolean);
+      setNewNoticeIds(new Set(ids));
+      console.log('Highlighting new notices:', ids);
+
+      // Clear highlight after 10 seconds
+      const timeout = setTimeout(() => {
+        setNewNoticeIds(new Set());
+      }, 10000);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [searchParams, router]);
 
   // ============ CHANGED: Replaced SSE with Polling ============
   useEffect(() => {
@@ -808,7 +848,11 @@ export default function HeadsUp() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 pb-3">
             {currentNotices.length > 0 ? (
               currentNotices.map((notice) => (
-                <NoticeCard key={notice.id} notice={notice} />
+                <NoticeCard
+                  key={notice.id}
+                  notice={notice}
+                  isNew={newNoticeIds.has(notice.id)}
+                />
               ))
             ) : (
               <div className="col-span-full text-center py-12 border border-[#2A2A2A] rounded-lg">

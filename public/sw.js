@@ -89,15 +89,24 @@ self.addEventListener('notificationclick', (event) => {
   event.notification.close();
 
   if (event.action === 'view' || event.action === '') {
-    // Open the app at the placement page
-    const urlToOpen = new URL(event.notification.data.url || '/placement', self.location.origin).href;
+    // Build URL with notice IDs as query params for highlighting
+    const baseUrl = event.notification.data.url || '/placement';
+    const noticeIds = event.notification.data.notices?.map(n => n.id).join(',') || '';
+    const urlToOpen = new URL(
+      `${baseUrl}?new=${noticeIds}&from=notification&ts=${Date.now()}`,
+      self.location.origin
+    ).href;
+
+    console.log('Opening URL with new notices:', urlToOpen);
 
     event.waitUntil(
       clients.matchAll({ type: 'window', includeUncontrolled: true }).then((clientList) => {
-        // Check if app is already open
+        // Check if app is already open at the base URL
+        const baseUrlFull = new URL(baseUrl, self.location.origin).href;
         for (const client of clientList) {
-          if (client.url === urlToOpen && 'focus' in client) {
-            return client.focus();
+          if (client.url.startsWith(baseUrlFull) && 'focus' in client) {
+            // Navigate to new URL with highlight params
+            return client.focus().then(() => client.navigate(urlToOpen));
           }
         }
         // Open new window
