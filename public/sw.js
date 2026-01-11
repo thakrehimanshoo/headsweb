@@ -50,8 +50,9 @@ self.addEventListener('push', (event) => {
       body: data.body || 'New CDC notice available',
       icon: data.icon || '/icon-192x192.png',
       badge: data.badge || '/badge-96x96.png',
-      tag: data.tag || 'cdc-notice',
+      tag: data.tag || `cdc-notice-${Date.now()}`, // Unique tag to prevent replacement
       requireInteraction: data.requireInteraction || true,
+      vibrate: data.vibrate || [200, 100, 200], // Vibration for supported devices
       data: data.data || {},
       actions: [
         {
